@@ -1,3 +1,5 @@
+<img align="right" src="./images/logo.png">
+
 
 Lab 15. Preparing Data for Analysis with Tableau Prep
 ------------------------------------------------------------------
@@ -43,15 +45,6 @@ shape it into the correct form.
 
 
 
-Technical requirements 
------------------------------------------
-
-For this lab, we need to download and install Tableau Prep as well
-as a sample dataset from the lab bundle. You might download it from
-Packt website.
-
-
-
 Installing Tableau Prep 
 ------------------------------------------
 
@@ -84,10 +77,6 @@ move fast. Using Tableau Prep, you can set your own flow and bring all
 the data together. You can join, transform, reshape and clean your data,
 and generate a Tableau data source that will be ready for data analysis
 and exploration.
-
- 
-
-
 
 #### Getting ready
 
@@ -226,17 +215,7 @@ and added data sources to the canvas, we can start to build our flow:
 ![](./images/d6d53107-d9e5-463b-9c60-7b68916d5b35.png)
 We have the following options:
 
- {.informaltable}
-  ---------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
-  [**Steps**]   [**Description**]
-  **`Add Step`**         This step will allow us to look at the data and modify it.
-  **`Add Aggregate`**    We can calculate a new measure, using functions such as `SUM`, `AVG`, and `COUNT`.
-  **`Add Pivot`**        We can transpose columns into rows. In other words, we can convert cross-table into a normal table.
-  **`Add Join`**         We can join data streams using the `INNER`, `LEFT`, `RIGHT`, and `OUTER` joins. Moreover, Tableau will visualize and color results on the fly.
-  **`Add Union`**        We can merge multiple streams into one.
-  **`Add Output`**       This is the final step, where we\'ll generate the result set. We can write into the CSV file or the Tableau data source. In addition, we can publish directly to the Tableau Server.
-  ---------------------- ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
- 
+![](./images/3.png)
 
 In our case, we will add the **`Clean`** step and learn about our
 dataset.
@@ -284,9 +263,6 @@ Moreover, our date is in string format.
 6.  Click on the **`Union`** step and change the date format:
 
 ![](./images/2279cabb-5c30-4e60-b8b9-bf9c23772e48.png)
- 
-
-
 7.  Let\'s also create new calculated fields. We don\'t have an OS name.
     We can use the [**Table Names**] system field in order to
     extract the phone\'s OS name. In order to create a new calculated
@@ -309,9 +285,6 @@ Pane of this field. 
 
 As a result, we\'ve got the correct dataset for further analysis in
 Tableau.
-
- 
-
 
 #### Publishing the result
 
@@ -398,32 +371,19 @@ using Snowflake data in order to calculate metrics by marketing segment.
 
 #### How to do it...
 
-
-In [Lab
-10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
-[*Tableau for Big Data*], we used a trial version of Snowflake. Let\'s connect Snowflake and build our
-flow:
-
+Let\'s connect Snowflake and build our flow:
 
 1.  Click on **`Connections`** and choose
     Snowflake. Fill in the credentials:
 
 ![](./images/ac19577e-e056-4644-af32-41c7ddc2e0a7.png)
-We use the same credentials that we created in [Lab
-10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
-[*Tableau for Big Data*].
 
 
 2.  Choose the **`Virtual Warehouse`** (computing resource),
     **`Database`**, and **`Schema`** options. It\'s the same as we did
     in Tableau Desktop:
- {.informaltable}
-  ----------------- -----------------------------------
-  **`Warehouse`**   `SF_TUTS_WH`
-  **`Database`**    `SNOWFLAKE_SAMPLE_DATA`
-  **`Schema`**      `TPCH_SF1`
-  ----------------- -----------------------------------
- 
+
+![](./images/4.png)
 
 You might choose a different schema with a bigger dataset, such as 
 `TPCH_SF10`, `TPCH_SF100`, or
@@ -432,7 +392,7 @@ You might choose a different schema with a bigger dataset, such as 
 
 3.  Drag and drop tables onto the canvas. You should already know the differences between Desktop and Prep.
     Let\'s drag and drop the following tables:
-     {.itemizedlist}
+
     -   **`LINEITEM`**
     -   **`ORDERS`**
     -   **`CUSTOMER`**
@@ -452,9 +412,6 @@ This is how it should look now:
 
 
 ![](./images/797f3b7d-9d9e-47ff-ac91-9642b6411470.png)
- 
-
-
 4.  Click on **`Join 1`** and you\'ll see the **`Profile`** pane. It has
     nice visualization of the **`JOIN`** statement:
 
@@ -488,15 +445,8 @@ It will bring us only three rows and add transparency.
 7.  Drop **`C_MKTSEGMENT`** into **`Grouped Fields`** and
     then drop the metric fields
     into **`Aggregated Fields`**; in addition, we will rename them:
- {.informaltable}
-  ------------------------------ ------------------------------- -------------------------
-  [**Original name**]   [**New name**]         [**Function**]
-  **`L_Quantity`**               `Quantity`            **`SUM`**
-  **`L_EXTENDEDPRICE`**          `Base Price Amount`   **`SUM`**
-  **`L_DISCOUNT`**               `Discount Rate`       **`SUM`**
-  **`L_TAX`**                    `Tax Rate`            **`Sum`**
-  **`C_MKTSEGMENT`**             `Marketing Segment`   **`n/a`**
-  ------------------------------ ------------------------------- -------------------------
+
+![](./images/5.png)
 
 8.  Let\'s calculate some additional metrics, such as amount with
     discount and tax. We can create calculated fields at the

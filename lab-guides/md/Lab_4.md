@@ -1,4 +1,7 @@
 
+<img align="right" src="./images/logo.png">
+
+
 
 Lab 4. Tableau Desktop Advanced Calculations
 ---------------------------------------------------------
@@ -14,59 +17,6 @@ In this lab, we will cover the following topics:
 -   Implementing the basics of level of detail expressions
 -   Using custom geocoding
 -   Using polygons for analytics
-
-
-Technical requirements 
-----------------------------------------
-
-To follow the recipes outlined in this lab, you will need to have
-Tableau 2019.x installed. You will also need to download and save the
-following datasets associated with this lab to your device:
--   `Unemployment_rates_1990-2016.csv` (available
-    at <https://github.com/PacktPublishing/Tableau-2018-Dot-1-Cookbook/blob/master/Unemployment_rates_1990-2016.csv>)
--   `Province_geocoding.csv` (available
-    at <https://github.com/PacktPublishing/Tableau-2018-Dot-1-Cookbook/blob/master/Province_geocoding.csv>)
--   `Serbian_provinces_population_size.csv` (available
-    at <https://github.com/PacktPublishing/Tableau-2018-Dot-1-Cookbook/blob/master/Serbian_provinces_population_size.csv>)
--   `Serbia_Provinces_Features.csv` (available
-    at <https://github.com/PacktPublishing/Tableau-2018-Dot-1-Cookbook/blob/master/Serbia_Provinces_Features.csv>)
--   `Serbia_Provinces_Points.csv` (available
-    at <https://github.com/PacktPublishing/Tableau-2018-Dot-1-Cookbook/blob/master/Serbia_Provinces_Points.csv>)
-
-
-
-Introduction 
-------------------------------
-
-Although Tableau is very versatile even when just it\'s basic features
-are used, it is the wide range of advanced functionalities that make it
-very powerful. This lab will gently introduce you to more advanced
-Tableau features. Through easy-to-understand, step-by-step recipes, you
-will get comfortable with calculated fields, quick table calculations,
-groups and sets, parameters, and level of detail expressions. To
-become a true Tableau master, you are
-encouraged to keep expanding your knowledge and practicing those
-concepts beyond this lab. In the first six recipes, we will be
-dealing with the topics of table calculations and calculated fields,
-groups and sets, parameters, and LOD expressions, and we will use
-the `Unemployment_rates_1990-2016.csv` dataset, provided by
-United States Department of Labor, Bureau of Labor Statistics. The
-dataset contains data on the size of the civilian labor force---the
-number of employed and unemployed people by metropolitan statistical
-area of the United States, between 1990 and 2016.
-
-Also, after becoming familiar with maps in [Lab
-1](https://subscription.packtpub.com/book/data/9781789533385/1){.link},
-[*Getting Started with Tableau Software*], you will also
-learn how to take Tableau geospatial analytics a step further and use
-custom geocoding and polygon maps. In the last two recipes covering
-geospatial analytics, we will be using
-the `Province_geocoding.csv`, `Serbian_provinces_population_size.csv`, `Serbia_Provinces_Features.csv`,
-and `Serbia_Provinces_Points.csv` datasets. These datasets
-contain different combinations of geocoding data (longitude and
-latitude) of Serbian provincial centers and borders, as well as data on
-their population sizes. Let\'s dive in!
-
 
 
 Creating calculated fields 
@@ -98,9 +48,6 @@ open a blank worksheet.
 
 ![](data:image/png;base64,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)
  
-
- 
-
 
 3.  Rename the field from **`Calculation 1`** to
     `Difference from Previous`. Click on the **`Apply`**
@@ -224,9 +171,6 @@ In order to follow this recipe, you will need to connect to
 the `Unemployment_rates_1990-2016.csv` dataset, and open a
 blank worksheet.
 
- 
-
-
 #### How to do it...
 
 
@@ -283,9 +227,6 @@ calculations would then be relative to the year 1991, which would become
 the first data point in the view.
 
  
-
- 
-
 
 #### There\'s more...
 
@@ -1076,9 +1017,6 @@ are joined by **`ID`**:
 
 
 ![](./images/2158d78e-d2c9-49a0-80d9-e42e362b50a2.png)
- 
-
-
 ### How to do it...                                                    
 
 
@@ -1098,27 +1036,8 @@ are joined by **`ID`**:
     following screenshot:
 
 ![](./images/f4d1b39e-e2f7-4df0-b479-f41740daefbc.png)
- 
 
- 
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 
 6.  Right-click on the **`Point order`** field under **`Measures`** and
@@ -1131,9 +1050,6 @@ are joined by **`ID`**:
     **`Color`**:
 
 ![](./images/15131de8-b9f5-496f-b280-fe5c580f9c7b.png)
- 
-
-
 ### How it works\...
 
 

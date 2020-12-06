@@ -1,3 +1,4 @@
+<img align="right" src="./images/logo.png">
 
 
 Lab 12. Advanced Analytics with Tableau
@@ -5,7 +6,7 @@ Lab 12. Advanced Analytics with Tableau
 
 
 
-Thischapterwillcoverthe following topics:
+This chapter will cover the following topics:
 -   Running segmentation analysis
 -   Discovering the latent structure of the dataset
 -   Extracting the structure beneath discrete variables
@@ -48,7 +49,7 @@ underlying patterns in our data. We\'ll learn how to identify and
 interpret latent dimensions of our dataset, to group similar cases, and
 to detect and interpret unusual cases and anomalies in data.  
 
- {.blockquote}
+
 > [*\"Hiding within those mounds of data is knowledge that could change
 > the life of a patient, or change the world.\"                        
 >                                                                      
@@ -93,9 +94,6 @@ your device and open Tableau and connect to it.
     deselect **`Aggregate Measures`**:
 
 ![](./images/9be63081-1e3d-411b-9a9f-d51fe4ed6260.png)
- 
-
-
 5.  We\'ve now produced a scatter plot of the car models. Let\'s add the
     clusters! In the **`Data`** pane, navigate to **`Analytics`**:
 
@@ -118,9 +116,6 @@ your device and open Tableau and connect to it.
     the [*Ctrl*] key on your keyboard:
 
 ![](./images/8d3d2cfc-dcfa-442b-adb8-f0830c685221.png)
- 
-
-
 9.  Drag and drop all of the selected measures into
     the **`Clusters`** window, under **`Variables`**:
 
@@ -184,9 +179,6 @@ under **`Summary Diagnostics`**. We can also create new scatterplots by
 placing various measures into the **`Rows`** and **`Columns`** shelves,
 so we can gain a better sense of how the clusters are distributed.
 
- 
-
-
 ### There\'s more\...
 
 
@@ -222,9 +214,6 @@ when we were creating the initial clusters.
 Always be careful with setting the number of clusters and don\'t
 increase it unless you have a good reason to do so. Simpler solutions
 are usually better!
- 
-
-
 #### See also
 
 
@@ -273,10 +262,6 @@ altruism, gentleness, competency, achievement, and discipline. Since
 simultaneously interpreting the results on various variables is a
 difficult task, we want to reduce the number of variables, but in a way
 that preserves the most information from the original dataset.
-
- 
-
-
 
 **Note**
 
@@ -360,9 +345,6 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
     shelf, to the right of the **`SUM(X2)`** pill:
 
 ![](./images/1bfdf4d3-4c36-438d-b222-fe9ef03089b7.png)
- 
-
-
 14. In the **`Marks`** card, click on the second **`SUM(PC1)`** chart in
     order to expand it:
 
@@ -388,9 +370,6 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
     **`Dual Axis`** from the drop-down menu:
 
 ![](./images/521fed64-da3d-4250-bcef-149ac62ba246.png)
- 
-
-
 20. Right-click on the **`PC2`** in the **`Rows`**shelf and select **`Dual Axis`** from the drop-down menu.
     We\'ve finished our PCA and created a chart to visualizeit:
 
@@ -405,9 +384,6 @@ elements. In the preceding screenshot, we\'ve increased the label font
 and made it bold, while at the same time changing the color of circles
 from orange to gray and decreasing opacity. Feel free to explore the
 formatting options that work best for you!
- 
-
-
 ### How it works\...
 
 
@@ -578,9 +554,6 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
     the **`Marks`**card:
 
 ![](./images/8807029b-4534-4b52-8b71-07b4f589e631.png)
- 
-
-
 12. Click on the **`Shape`** button in the **`Marks`** card:
 
 ![](./images/57390353-6687-4092-a853-c72c38543895.png)
@@ -593,9 +566,6 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
     screenshot:
 
 ![](./images/72384ed2-013e-420e-b192-fd35710ff1f1.png)
- 
-
-
 14. When you are done with choosing the shapes, click on **`OK`** to
     exit the **`Edit Shape [Type]`** window. Our correspondence analysis
     is done:
@@ -668,7 +638,7 @@ Classification of cases in groups is one of the most
 important tasks in data mining and analytics.
 In the previous recipe,
 
- {.blockquote}
+
 > Clustering
 , we made clusters of similar cases based on
 measures by letting Tableau discover groups and patterns in the data.
@@ -678,10 +648,6 @@ will predict group membership using other fields in our dataset. For
 this task, we can use a tree-based model. By the end of this lab,
 you\'ll have built a decision tree using a classification algorithm,
 while retaining a focus on a real-life business question.
-
- 
-
-
 
 #### Getting ready
 
@@ -762,11 +728,8 @@ Rserve()
     the **`Marks`** card.
 14. In the main menu toolbar, navigate to **`Analysis`** and, from the
     drop-down menu, select **`Create Calculated Field...`**.
- 
-
-
 15. Rename the new calculated field to 
-     {.blockquote}
+    
     > **`Prediction`**
         and enter the following code block:
 
@@ -829,34 +792,16 @@ visualization comparing the actual values of the **`Future Purchase`**
 dimension and the values we predicted. We can clearly see that, although
 there are some misclassifications, our model performs pretty well!
 
- 
-
- 
-
- 
-
- 
-
- 
-
- 
 
 
 ### There\'s more
-
-
 
 After having developed your model, you can save it as the
 `.rda` file at your computer and reuse it with a new dataset.
 Let\'s say you receive some more data about consumers, and you want to
 see how many of them you can expect to go for a new car---you can just
 feed that data into the model you\'ve already developed and get an
-estimate. For more details on how to do this,
-you can refer to the [*Forecasting based on
-multiple regression*] recipe in [Lab
-11](https://subscription.packtpub.com/book/data/9781789533385/11){.link},
-[*Forecasting with Tableau*].
-
+estimate.
 
 #### See also
 
@@ -879,17 +824,11 @@ rest of the cases fit in. Sometimes, we might want to identify them in
 order to remove them from the analysis,
 because they can skew our results. In other cases, we might be
 interested in analyzing them. Either way, it\'s very important to know
-how to deal with them properly. In [Lab
-11](https://subscription.packtpub.com/book/data/9781789533385/11){.link},
-[*Forecasting with Tableau*], the [*Forecasting on a dataset
-with outliers*] recipe taught up how to deal with outliers on
+how to deal with them properly. In *Forecasting with Tableau*, the *Forecasting on a dataset
+with outliers* recipe taught up how to deal with outliers on
 one dimension, which is relatively simple. But when we have more than
 one dimension, things get much more complicated. In this recipe, we\'ll
 learn how to deal with multidimensional outliers.
-
- 
-
-
 
 #### Getting ready
 
@@ -941,9 +880,6 @@ IF SCRIPT_REAL("library(mvoutlier);sign2(cbind(.arg1, .arg2))$wfinal01", AVG([Ag
 
  
 
- 
-
-
 12. In the main menu toolbar, navigate to **`Analysis`** and, in the
     drop-down menu, deselect **`Aggregate Measures`**. 
 13. Drag and drop **`Outliers`** from **`Measures`** onto **`Color`** in
@@ -990,9 +926,6 @@ age. So, had we done a simple, one-dimensional, outlier analysis, we
 would have never detected these unusual cases.
 
  
-
- 
-
 
 ### There\'s more\...
 

@@ -1,8 +1,9 @@
 
+<img align="right" src="./images/logo.png">
+
 
 Lab 16. ETL Best Practices for Tableau
 ---------------------------------------------------
-
 
 
 Tableau is a leader among BI tools and it brings great power to any
@@ -121,18 +122,13 @@ and straightforward. 
 
  
 
- 
-
-
 ### How it works\... 
 
 
 
 By the end of the preparation, you should have running an Matillion ETL
 EC2 instance within your account. In addition, you should configure it
-to the Redshift instance, which we used in [Lab
-10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
-[*Tableau for Big Data*]. Tableau will connect to the
+to the Redshift instance, which we used in *Tableau for Big Data*. Tableau will connect to the
 Redshift. We will use `tabcmd` for the following tasks:
 -   Triggering a refresh of Tableau Extract at the end of ETL
 -   Triggering an export of Tableau Workbook in order to generate a PDF
@@ -337,9 +333,6 @@ on our EC2 and then will upload to the Reporting Bucket via AWS CLI.
 Moreover, it will automatically create a folder in bucket with date. In
 addition, we specify the file name according with our naming convention.
 
- 
-
-
 6.  Moreover, you should create the following
     variables in the same way as in step \#1:
 
@@ -359,29 +352,21 @@ different use cases.
 
 8.  Then, we should fill in the form and choose the
     following mentioned options:
- {.informaltable}
-  ------------------- ----------------------------------------------------
-  **`Package`**       `Packt.tableau.refreshextract`
-  **`Name`**          `Refresh Tableau Extract`
-  **`Description`**   `This component refresh Tableau Extract`
-  ------------------- ----------------------------------------------------
+
+![](./images/6.png)
 
 9.  Click on **`Next`** and you will see the
     **`Parameter Configuration`** step. Then, click on **`OK`**.
 10. Then, do the same for the second job **`Tableau Export to PDF`**, as
     follows:
- {.informaltable}
-  ------------------- ----------------------------------------------------------------
-  **`Package`**       `Packt.tableau.exporttopdf`
-  **`Name`**          `Tableau Export to PDF`
-  **`Description`**   `This component will export PDF report to S3 Bucket`
-  ------------------- ----------------------------------------------------------------
+
+![](./images/7.png)
 
 11. Click on **`Next`**, fill in the **`Parameter Configuration`** page
     and click on **`OK`**. These parameters will be used for the data
     entry later.
 12. Let\'s check out the jobs. Navigate to **`Shared Jobs Pane`** \|
-    **`User Defined`** \| **`Packt`**, as follows:
+    **`User Defined`** \| **`Fenago`**, as follows:
 
 ![](data:image/png;base64,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)
 As a result, you\'ll see our new jobs.
