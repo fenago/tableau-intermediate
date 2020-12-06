@@ -1,6 +1,6 @@
 
 
-Chapter 12. Advanced Analytics with Tableau {#chapter-12.-advanced-analytics-with-tableau .title}
+Chapter 12. Advanced Analytics with Tableau
 ----------------------------------------------------
 
 
@@ -63,7 +63,7 @@ Running segmentation analysis
 ------------------------------------------------
 
 Cluster analysis is one of the most popular
-data analysis[]{#id325285864 .indexterm} techniques. It allows us to
+data analysis techniques. It allows us to
 find patterns or segments in our data, which we can then interpret in
 order to gain a more in-depth understanding of its underlying structure.
 Tableau has a built-in clustering functionality, which means we\'ll not
@@ -90,7 +90,7 @@ your device and open Tableau and connect to it.
     the **`Rows`** shelf.
 3.  Drag and drop **`Mpg`** from **`Measures`** into
     the **`Columns`** shelf.
-4.  In the main menu[]{#id325367127 .indexterm} toolbar, navigate
+4.  In the main menu toolbar, navigate
     to **`Analysis`** and, in the drop-down menu,
     deselect **`Aggregate Measures`**:
 
@@ -117,7 +117,7 @@ your device and open Tableau and connect to it.
     that we previously placed into the scatter plot. Navigate back to
     the **`Data`** pane and, under **`Measures`**, select the remaining
     measures (**`Am`** through **`Wt`**), by clicking on
-    them[]{#id325368404 .indexterm} while holding
+    them while holding
     the [*Ctrl*] key on your keyboard:
 
 ![](./images/8d3d2cfc-dcfa-442b-adb8-f0830c685221.png)
@@ -136,7 +136,7 @@ your device and open Tableau and connect to it.
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -155,7 +155,7 @@ interpret the clusters. We can use the **`Describe Clusters`** function
 to aid the interpretation. We\'ll access it by right-clicking on
 the **`Clusters`** pill in the **`Marks`** card and
 selecting **`Describe Clusters`** from the drop-down menu, as
-shown[]{#id325387018 .indexterm} in the following screenshot:
+shown in the following screenshot:
 
 
 ![](./images/2640430e-fb7b-4c47-a005-62f135277c9c.png)
@@ -163,7 +163,7 @@ This will launch the **`Describe Clusters`** window.
 Under **`Summary`**, we can see what variables entered into the cluster
 analysis, as well as **`Summary Diagnostics`**, which includes the
 description of the model itself, as well as that of the individual
-clusters. The **`Summary`** tab is shown[]{#id325442019 .indexterm} in
+clusters. The **`Summary`** tab is shown in
 the following screenshot:
 
 
@@ -199,7 +199,7 @@ In the following example, we\'ll let the Tableau clustering algorithm
 automatically determine the number of clusters---in this case, two.
 However, it\'s also possible, and sometimes desirable, to set the number
 of clusters ourselves. Let\'s change the number of
-clusters[]{#id326224154 .indexterm} by performing the following steps:
+clusters by performing the following steps:
 
 
 1.  Right-click on the **`Clusters`** pill in the **`Marks`** card.
@@ -216,7 +216,7 @@ when we were creating the initial clusters.
 ![](./images/0c1f9a29-123e-47f0-b68c-01c6e2f0ecc0.png)
 
 4.  Click on **`X`** to close the **`Clusters`** window. We\'ve now
-    created[]{#id326676261 .indexterm} a three-cluster solution:
+    created a three-cluster solution:
 
 ![](./images/6bc2faa1-d56b-498a-bc2c-02cabc45992f.png)
  {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
@@ -232,9 +232,9 @@ are usually better!
 #### See also
 
 
--   To learn more about[]{#id326677027 .indexterm} k-means clustering,
+-   To learn more about k-means clustering,
     start here: <https://en.wikipedia.org/wiki/K-means_clustering>
--   For more information about[]{#id326677038 .indexterm} running
+-   For more information about running
     cluster analysis in Tableau, feel free to visit
     the **`Tableau Help`** page on the
     topic: <https://onlinehelp.tableau.com/current/pro/desktop/en-us/clustering.htm>
@@ -248,12 +248,12 @@ When dealing with complex topics, we usually
 end up with a dataset with a large number of variables. To find meaning
 in this kind of dataset is typically a tricky task. Luckily, there are
 some analytical techniques that can help us. One of those
-techniques[]{#id325285845 .indexterm} is [**principal component
+techniques is [**principal component
 analysis**] ([**PCA**]), which is a data reduction
 technique. Mathematical transformation in this analysis enables us to
 derive the most informative dimensions of our dataset. The mathematics
 underlying the analysis [**singular value decomposition**]
-([**SVD**]) is somewhat[]{#id325272535 .indexterm} complex, so
+([**SVD**]) is somewhat complex, so
 we won\'t go into too much detail in this recipe. The basics of PCA can
 be described like this: you start with a dataset with many variables,
 then you simplify that dataset by turning your original variables into a
@@ -297,7 +297,7 @@ built-in R.
 2.  In the **`R Editor`** window, enter the following code and make sure
     to replace all of the file paths with the paths leading to the
     appropriate locations on your device. After pasting the paths, make
-    sure to replace the backslashes[]{#id324944094 .indexterm} with
+    sure to replace the backslashes with
     double backslashes, as seen in the following code:
  {.informalexample}
  {.toolbar .clearfix}
@@ -385,14 +385,14 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
 
 ![](./images/bfd1d7cc-2fb7-46de-8113-698e80dabc33.png)
 
-18. In the main menu[]{#id325272451 .indexterm} toolbar, navigate to
+18. In the main menu toolbar, navigate to
     **`Analysis`** and, from the drop-down menu, deselect
     **`Aggregate Measures`**:
 
 ![](./images/77c4fb3e-40eb-4578-88d5-f501ea11a069.png)
 
 19. Right-click on the **`PC1`** pill in the
-    **`Columns`**shelf[]{#id325368420 .indexterm} and select
+    **`Columns`**shelf and select
     **`Dual Axis`** from the drop-down menu:
 
 ![](./images/521fed64-da3d-4250-bcef-149ac62ba246.png)
@@ -417,7 +417,7 @@ formatting options that work best for you!
  
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -432,7 +432,7 @@ people (cases) from our original data file but, instead of showing
 scores on the different personality traits, we\'re charting the scores
 on the first two principal components. Through our R script, we wrote a
 new file, `scores.csv`, where we recorded the scores of
-individuals[]{#id326676256 .indexterm} on each of the principal
+individuals on each of the principal
 components. We saved those values (scores on principal components) as
 measures: X1, X2, and so on. On the other hand, the lines represent our
 original dimensions---personality traits. In the chart, we\'re showing
@@ -497,7 +497,7 @@ plot.
     to implement the analysis, see the documentation:
     <https://www.rdocumentation.org/packages/kazaam/versions/0.1-0/topics/prcomp>
 -   Since the book is not meant to provide a comprehensive introduction
-    to R language or data science reader[]{#id326678970 .indexterm} is
+    to R language or data science reader is
     encouraged to refer the following links:
 -   <https://www.statmethods.net/index.html>
 -   [https://www.r-bloggers.com](https://www.r-bloggers.com/){.ulink}
@@ -602,7 +602,7 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
     the desired value (**`Brand`** or **`Feature`**) under
     **`Select Data Item`**, and choosing the desired shape from the
     **`Select Shape Palette`** drop-down menu. Let\'s
-    choose[]{#id325285850 .indexterm} the shapes shown in the following
+    choose the shapes shown in the following
     screenshot:
 
 ![](./images/72384ed2-013e-420e-b192-fd35710ff1f1.png)
@@ -617,7 +617,7 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -655,7 +655,7 @@ brands.
 
 Just as with the PCA, we can also use the positions of attributes on the
 plot to interpret the dimensions created by them. In our example, the
-[*y*]axis could be interpreted[]{#id325442067 .indexterm} as
+[*y*]axis could be interpreted as
 ranging from affordable/simple offer to high-tech/innovative, while the
 [*x*] axis could be interpreted as being
 trustworthy/friendly/transparent on one pole, and youthful on the other.
@@ -666,10 +666,10 @@ trustworthy/friendly/transparent on one pole, and youthful on the other.
 
 -   If you\'re interested in gaining a more in-depth understanding of
     the correspondence analysis itself, you may want to
-    start[]{#id325442707 .indexterm} with this article:
+    start with this article:
     <https://en.wikipedia.org/wiki/Correspondence_analysis>
 -   For more information on the R `ca` package that
-    we[]{#id325442723 .indexterm} used to run the analysis, you can
+    we used to run the analysis, you can
     refer to this link:
     <https://cran.r-project.org/web/packages/ca/index.html>
 
@@ -679,12 +679,12 @@ Data mining with tree-based models
 -----------------------------------------------------
 
 Classification of cases in groups is one of the most
-important[]{#id325272412 .indexterm} tasks in data mining and analytics.
+important tasks in data mining and analytics.
 In the previous recipe,
 
  {.blockquote}
 > Clustering
-, we made clusters of similar[]{#id325269189 .indexterm} cases based on
+, we made clusters of similar cases based on
 measures by letting Tableau discover groups and patterns in the data.
 However, there are also situations where we already have a dimension
 labeling certain groups in our data, and we want to create a model that
@@ -719,8 +719,8 @@ Before we dive into the recipe, please make sure you have the
 2.  In the **`R Editor`** window, enter the following code. Make sure to
     replace all of the file paths with the paths leading to the
     appropriate locations on your device. After pasting the paths, make
-    sure to replace the backslashes[]{#id325194969 .indexterm} with
-    double[]{#id325194931 .indexterm} backslashes, as in the following
+    sure to replace the backslashes with
+    double backslashes, as in the following
     code block:
  {.informalexample}
  {.toolbar .clearfix}
@@ -754,7 +754,7 @@ Rserve()
     dataset.
 6.  In the main menu toolbar, navigate to **`Help`** and, from the
     drop-down menu, select **`Settings and Performance`**. From the
-    additional[]{#id325185445 .indexterm} drop-down menu[]{#id325185453
+    additional drop-down menu[]{#id325185453
     .indexterm} that will open, select
     **`Manage External Service Connection`**\...:
 
@@ -766,10 +766,10 @@ Rserve()
 
 ![](data:image/png;base64,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)
 
-10. After receiving the message[]{#id325192616 .indexterm} that you\'re
+10. After receiving the message that you\'re
     successfully connected to the `RServe` service, click
     on **`OK`** to exit the notification, and then click
-    on **`OK`**again[]{#id325192633 .indexterm} to exit the
+    on **`OK`**again to exit the
     **`External Service Connection`** window:
 
 ![](data:image/png;base64,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3DfygCZtK3poOFTqsSiUQ1U9rC5GrCofWLh2+Pin5a9iX4YMq147+hOgkaoexXceuR6V9PGl3k5dRnqTyeIiyV/i3w4f//CHHuS5tDnrTQY9BnvtM0W6uGg06qHrSKxUCUJnulnpWVaIobi4HFD1ios0Iqd9EdIGFqJhvnufnowD05AO669Kbb64hEa5ZJBQ0aNIHiM9yulD9oayjZON3ttigGRl3deFg21IT+peT2/8emgT9BBh7OK8raUXaRT0sH5s3yg7zjnbh8pp395CrwqhmP3nZGuaXBRnu7f77zAwi1pOCNOdt4rDKtfGXsLoixwECRU9Rl+YFnpsw1enunWEnUhZj1HySPR44a9OC2xjCjuQsh6j5JHosQ3pA3YoJT2S5JGy9fQBO5SSHknyKEH6GFdSPUrJI1lcSB9jS6pHKXmkepA+xpVEj5adh0L6GFMSPdp2HgrpYzwZ6bFy8crvrVy5SPoYR0Z6LFx0IX2MI+nWFKACeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADeoADenSHE9tF7E9Aj+4QJ3frxP4E9OgOJ05sbAfo0U3QAxzQAxzQAxzQAxx8PeazLJvZuH7o0cZv2ekYawQ9uomrx/ybjzYevDsjelzf/32MNYMe3cTT48F76sT1Q9cOXXuGHejRUTw9dFERST7+9dVn2YEeHWVTeuw/JquMC3p0k80tLo/mvwihNtCjm2xya/rfhzMx1gx6dBNXD/tge9oWGbEkxhpBj27i67Fp0KOboAc4oAc4oAc4xP/rtXVifwJ6dIc4uVsn9iegBzigBzigBzigBzigBzigBzigBzigBzigBzigB7QyHP4P8ItfWbIeyT0AAAAASUVORK5CYII=)
@@ -834,7 +834,7 @@ showing the actual and predicted classification of customers:
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -842,9 +842,9 @@ Decision trees utilize the approach of repetitively dividing cases into
 smaller, more homogeneous groups. Finally, we end up with a
 classification tree which can be effectively visualized and easily
 interpreted. In our example, we\'re trying to answer the
-question[]{#id326680580 .indexterm} based on the data we have. The
+question based on the data we have. The
 question that arises is: can we effectively predict who\'s going to buy
-a new car and who\'s going[]{#id326680594 .indexterm} to buy a used car?
+a new car and who\'s going to buy a used car?
 As it turns out, we can. We\'ve created a predictive model using the
 previous R script, and we recorded the predicted values for each case in
 the new field called **`Prediction`**. We\'ve then created a
@@ -865,7 +865,7 @@ there are some misclassifications, our model performs pretty well!
  
 
 
-### There\'s more {#theres-more .title}
+### There\'s more
 
 
 
@@ -874,8 +874,8 @@ After having developed your model, you can save it as the
 Let\'s say you receive some more data about consumers, and you want to
 see how many of them you can expect to go for a new car---you can just
 feed that data into the model you\'ve already developed and get an
-estimate. For more details on how[]{#id326680681 .indexterm} to do this,
-you can refer[]{#id326680700 .indexterm} to the [*Forecasting based on
+estimate. For more details on how to do this,
+you can refer to the [*Forecasting based on
 multiple regression*] recipe in [Chapter
 11](https://subscription.packtpub.com/book/data/9781789533385/11){.link},
 [*Forecasting with Tableau*].
@@ -885,10 +885,10 @@ multiple regression*] recipe in [Chapter
 
 
 -   If you\'re interested in learning more about tree-based models, you
-    may[]{#id326680910 .indexterm} want to start at the following link:
+    may want to start at the following link:
     <https://en.wikipedia.org/wiki/Decision_tree_learning#General>
 -   For more information about the `rpart` library we
-    used[]{#id326680928 .indexterm} in this recipe, start here:
+    used in this recipe, start here:
     <https://cran.r-project.org/web/packages/rpart/rpart.pdf>
 
 
@@ -900,7 +900,7 @@ When analyzing data we\'ll frequently encounter[]{#id326630834
 .indexterm} unusual cases, outliers, and anomalies. Those cases are
 different from the majority and they don\'t match the pattern that the
 rest of the cases fit in. Sometimes, we might want to identify them in
-order to remove[]{#id326630828 .indexterm} them from the analysis,
+order to remove them from the analysis,
 because they can skew our results. In other cases, we might be
 interested in analyzing them. Either way, it\'s very important to know
 how to deal with them properly. In [Chapter
@@ -940,7 +940,7 @@ Rserve()
     the `age_and_blood_pressure.csv` file.
 3.  In the main menu toolbar, navigate to **`Help`** and, from the
     drop-down menu, select **`Settings and Performance`**. From the
-    additional[]{#id325269176 .indexterm} drop-down menu[]{#id325269185
+    additional drop-down menu[]{#id325269185
     .indexterm} that will open,
     choose **`Manage External Service Connection...`**.
 4.  In the **`Server`** field, enter `localhost`.
@@ -977,14 +977,14 @@ IF SCRIPT_REAL("library(mvoutlier);sign2(cbind(.arg1, .arg2))$wfinal01", AVG([Ag
     drop-down menu, deselect **`Aggregate Measures`**. 
 13. Drag and drop **`Outliers`** from **`Measures`** onto **`Color`** in
     the **`Marks`** card. Our chart clearly shows the multidimensional
-    outliers[]{#id325285845 .indexterm} now, as shown[]{#id325285853
+    outliers now, as shown[]{#id325285853
     .indexterm} in the following screenshot:
 
 ![](./images/b41cae9d-dd75-4f98-8bfd-2c9cbcefdb9f.png)
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -999,7 +999,7 @@ their pattern of values on multiple dimensions.
  
 
 In our example, we\'ve flagged two people
-with a respective[]{#id325386962 .indexterm}blood pressure of 150 and
+with a respectiveblood pressure of 150 and
 155 as outliers, circled in the following screenshot:
 
 
@@ -1033,8 +1033,8 @@ dataset (and two-dimensional outliers). However, you\'ll usually deal
 with datasets that have more than two dimensions. Nevertheless, the
 general approach you\'ll use to detect the multidimensional outliers
 will be the same. You can use the same syntax as the one we\'ve used in
-this example, but simply[]{#id326294461 .indexterm} add as
-many[]{#id326294470 .indexterm} arguments as needed. The script will run
+this example, but simply add as
+many arguments as needed. The script will run
 in the same manner and detect the outliers.
 
 However, when operating with more than two dimensions, you won\'t be
@@ -1055,5 +1055,5 @@ some insight on how the outlier values can be interpreted. 
 
 -    To find out more about the `mvoutlier` package we used in
     this chapter and the detection of multivariate
-    outliers[]{#id326294518 .indexterm} in general, visit this
+    outliers in general, visit this
     page: <https://cran.r-project.org/web/packages/mvoutlier/index.html>.

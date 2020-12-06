@@ -1,5 +1,5 @@
 
-Chapter 15. Preparing Data for Analysis with Tableau Prep {#chapter-15.-preparing-data-for-analysis-with-tableau-prep .title}
+Chapter 15. Preparing Data for Analysis with Tableau Prep
 ------------------------------------------------------------------
 
 
@@ -27,13 +27,13 @@ sound decision-making and allows them to generate value for everyone.
 Modern businesses generate tremendous volumes of data. Some data is
 available in data warehouses, some in [**online Transaction
 processing**] ([**OLTP**]) system, and
-some[]{#id325355484 .indexterm} in third-party marketing applications.
+some in third-party marketing applications.
 Tableau is a powerful tool that allows us to explore and visualize all
 this data, but sometimes it isn\'t enough. In some cases, data should be
 clean and transformed before analysis and usually it requires the help
 of data engineers or [**extract,
 transform,**] [**load**] ([**ETL**])
-developers. As a result, this is a kind[]{#id325355463 .indexterm} of
+developers. As a result, this is a kind of
 bottleneck for the organization and slows down decision-making processes
 as well as value-generation.
 
@@ -103,7 +103,7 @@ from <https://www.tableau.com/support/releases/>.
 
 
 
-Let\'s find[]{#id324903683 .indexterm} Tableau Prep, download it, and
+Let\'s find Tableau Prep, download it, and
 install:
 
 
@@ -116,7 +116,7 @@ install:
 
 
 
-### How it works... {#how-it-works .title}
+### How it works...
 
 
 
@@ -137,7 +137,7 @@ Snowflake, an innovative analytical data warehouse.
 
 When we download Tableau Prep for the first time, we can start a free
 trial and we can use Tableau Prep for 14 days. Then, if we want to
-continue[]{#id324944092 .indexterm} to use it, we need to buy a license.
+continue to use it, we need to buy a license.
 Tableau Prep isn\'t an individual product, it comes with Tableau Creator
 License and includes Tableau Desktop and one Tableau Server or Tableau
 Online. You can read more about licensing costs
@@ -149,8 +149,8 @@ Building the first flow with Tableau Prep
 
 After successfully installing and launching Tableau Prep, we can start
 to build our first data flow using the sample dataset. (Just an example,
-in this recipe, we\'ll cover[]{#id324881097 .indexterm} how to
-connect[]{#id324881084 .indexterm} the data, transfer it, and then
+in this recipe, we\'ll cover how to
+connect the data, transfer it, and then
 publish the result.)
 
 
@@ -172,7 +172,7 @@ transform it, and then publish the result.
 
 
 
-#### Connecting the data {#connecting-the-data .title}
+#### Connecting the data
 
 
 
@@ -216,7 +216,7 @@ we can apply filters.
 
 
 
-#### Transforming the data {#transforming-the-data .title}
+#### Transforming the data
 
 
 
@@ -316,7 +316,7 @@ Tableau.
  
 
 
-#### Publishing the result {#publishing-the-result .title}
+#### Publishing the result
 
 
 
@@ -344,13 +344,13 @@ the Tableau data source:
 
 
 
-### How it works... {#how-it-works .title}
+### How it works...
 
 
 
  Despite the fact that we performed a very simple task, we covered 80%
 of Tableau Prep\'s functionality. The main goal was to understand how
-the product[]{#id324911126 .indexterm} works. Basically, Tableau Prep
+the product works. Basically, Tableau Prep
 can connect to any data source and gives us the ability to fully control
 the data flow by transforming and merging the data. In addition, we can
 create calculated fields using the Tableau syntax. Finally, we store our
@@ -363,7 +363,7 @@ results in CSV or Tableau Data Source.
 
 In this recipe, we got introduced Tableau Prep and learned the tool\'s
 main functionality. Here\'s a good resource for doing more complex work
-with[]{#id324911141 .indexterm} Tableau Prep:
+with Tableau Prep:
 <https://onlinehelp.tableau.com/current/prep/en-us/prep_dayinlife.htm>.
 
 It has the following two use cases with a detailed step-by-step guide:
@@ -497,7 +497,7 @@ It will bring us only three rows and add transparency.
     **`Grouped Fields`** and **`Aggregated Fields`**.
 
 7.  Drop **`C_MKTSEGMENT`** into **`Grouped Fields`** and
-    then[]{#id325192638 .indexterm} drop the metric fields
+    then drop the metric fields
     into **`Aggregated Fields`**; in addition, we will rename them:
  {.informaltable}
   ------------------------------ ------------------------------- -------------------------
@@ -550,7 +550,7 @@ As a result, we\'ll get the right discounted price.
 ![](./images/37bfe7d5-2ec8-4301-a7fc-982e2ec80598.png)
 
 10. Create the final step by adding **`Output`**. Before
-    running[]{#id325285844 .indexterm} this, drop the filter and
+    running this, drop the filter and
     eliminate the sampling:
 
 ![](./images/d0b3755f-4b8b-4b71-8a3b-a52bc3a4c16d.png)
@@ -566,11 +566,11 @@ It took 36 seconds to run.
 
 
 
-### How it works... {#how-it-works .title}
+### How it works...
 
 
 
-We can go to the Snowflake console[]{#id325386976 .indexterm} and see
+We can go to the Snowflake console and see
 how Tableau Prep works under the hood:
 
 
@@ -595,11 +595,11 @@ my initial flow and write to the extract. This gives us performance
 benefits because our dashboards work faster without complex calculations
 and filters. Moreover, it visualizes the flow and allows end users to
 quickly understand the logic or apply the changes. There is a link with
-more information about[]{#id326211977 .indexterm} Tableau Prep
+more information about Tableau Prep
 steps: <https://onlinehelp.tableau.com/current/prep/en-us/prep_clean.htm>
 
 
-### See also... {#see-also .title}
+### See also...
 
 
 
@@ -609,5 +609,5 @@ the full potential of Tableau Prep to operationalize[]{#id326616179
 .indexterm} your data prep experience. With Prep Conductor, you can
 schedule your flows to run, when, where, and how you want to. You can
 choose which outputs to schedule independently of one another. You can
-read more about[]{#id326616922 .indexterm} this feature
+read more about this feature
 here <https://www.tableau.com/about/blog/2018/11/keep-your-data-fresh-tableau-prep-conductor-now-beta-97369>. 

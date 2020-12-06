@@ -1,6 +1,6 @@
 
 
-Chapter 2. Data Manipulation {#chapter-2.-data-manipulation .title}
+Chapter 2. Data Manipulation
 -------------------------------------
 
 
@@ -143,7 +143,7 @@ Make sure you have both datasets saved to your device.
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -281,7 +281,7 @@ both saved to your device.
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -410,7 +410,7 @@ the `Internet_satisfaction.csv` and
 We\'ve successfully blended our data sources!
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -482,7 +482,7 @@ relationships.
 
 
 
-###  See also {#see-also .title}
+###  See also
 
 
 -   You can find more information on data blending on the
@@ -537,7 +537,7 @@ saved it to you device.
  
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -614,7 +614,7 @@ Make sure you have it saved to your device and connect to it.
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
@@ -723,7 +723,7 @@ often need to take when preparing your data for visualizing.
 
 
 
-#### Splitting fields {#splitting-fields .title}
+#### Splitting fields
 
 
 
@@ -749,7 +749,7 @@ We\'ve now created two new fields---**`Taster Name - Split 1`** and
 
 
 
-#### Converting measures into dimensions {#converting-measures-into-dimensions .title}
+#### Converting measures into dimensions
 
 
 
@@ -763,7 +763,7 @@ Now, let\'s see how to convert measures into dimensions:
 
 
 
-#### Renaming fields {#renaming-fields .title}
+#### Renaming fields
 
 
 
@@ -798,7 +798,7 @@ Let\'s rename some of our fields to make them easier to use:
 
 
 
-#### Adding aliases {#adding-aliases .title}
+#### Adding aliases
 
 
 
@@ -844,7 +844,7 @@ Let\'s correct that by adding an alias.
 
 
 
-### How it works\... {#how-it-works... .title}
+### How it works\...
 
 
 
