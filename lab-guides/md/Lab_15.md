@@ -1,10 +1,10 @@
 
-Chapter 15. Preparing Data for Analysis with Tableau Prep
+Lab 15. Preparing Data for Analysis with Tableau Prep
 ------------------------------------------------------------------
 
 
 
-This chapter will cover the following recipes:
+This lab will cover the following recipes:
 -   Installing Tableau Prep
 -   Building the first flow with Tableau Prep
 -   Working with big data
@@ -25,14 +25,12 @@ the right decisions. They require clean and accurate data that enables
 sound decision-making and allows them to generate value for everyone.
 
 Modern businesses generate tremendous volumes of data. Some data is
-available in data warehouses, some in [**online Transaction
-processing**] ([**OLTP**]) system, and
+available in data warehouses, some in [**online Transaction processing**] ([**OLTP**]) system, and
 some in third-party marketing applications.
 Tableau is a powerful tool that allows us to explore and visualize all
 this data, but sometimes it isn\'t enough. In some cases, data should be
 clean and transformed before analysis and usually it requires the help
-of data engineers or [**extract,
-transform,**] [**load**] ([**ETL**])
+of data engineers or [**extract,transform,**] [**load**] ([**ETL**])
 developers. As a result, this is a kind of
 bottleneck for the organization and slows down decision-making processes
 as well as value-generation.
@@ -48,8 +46,8 @@ shape it into the correct form.
 Technical requirements 
 -----------------------------------------
 
-For this chapter, we need to download and install Tableau Prep as well
-as a sample dataset from the chapter bundle. You might download it from
+For this lab, we need to download and install Tableau Prep as well
+as a sample dataset from the lab bundle. You might download it from
 Packt website.
 
 
@@ -95,8 +93,7 @@ and exploration.
 
 First of all, we should download Tableau Prep from the Tableau website
 and install it on our machine. All Tableau software releases can be
-downloaded
-from <https://www.tableau.com/support/releases/>.
+downloaded from <https://www.tableau.com/support/releases/>.
 
 
 #### How to do it...
@@ -159,7 +156,7 @@ publish the result.)
 
 To proceed with this section, download the Microsoft Excel
 document, `installs.xlsx`, that\'s available for this
-chapter. 
+lab. 
 
 This dataset has data about a number of app installs for iOS and Android
 by date.
@@ -320,8 +317,7 @@ Tableau.
 
 
 
-When we finish the transformation, we should publish[]{#id326622312
-.indexterm} our result using the **`Add Output`** step. Let\'s create
+When we finish the transformation, we should publish our result using the **`Add Output`** step. Let\'s create
 the Tableau data source:
 
 
@@ -375,11 +371,7 @@ Working with big data
 ----------------------------------------
 
 Tableau Prep works with big data volumes and big data tools, such as
-Snowflake, Redshift, and Amazon EMR. You can refer to [Chapter
-10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
-[*Tableau for Big Data*] and connect[]{#id326224163
-.indexterm} existing accounts of Amazon Redshift, Amazon EMR, or
-Snowflake.
+Snowflake, Redshift, and Amazon EMR. 
 
 Tableau Prep allows us to work with big data sets by leveraging
 sampling. However, it processes data on your local machine and if you
@@ -390,7 +382,7 @@ want to create an extract when working with big data. In the case of
 Tableau Prep, we can learn our dataset and then use filters to split the
 dataset and work with part of it.
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -407,11 +399,9 @@ using Snowflake data in order to calculate metrics by marketing segment.
 #### How to do it...
 
 
-
- In [Chapter
+In [Lab
 10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
-[*Tableau for Big Data*], we used a trial[]{#id325387019
-.indexterm} version of Snowflake. Let\'s connect Snowflake and build our
+[*Tableau for Big Data*], we used a trial version of Snowflake. Let\'s connect Snowflake and build our
 flow:
 
 
@@ -419,7 +409,7 @@ flow:
     Snowflake. Fill in the credentials:
 
 ![](./images/ac19577e-e056-4644-af32-41c7ddc2e0a7.png)
-We use the same credentials that we created in [Chapter
+We use the same credentials that we created in [Lab
 10](https://subscription.packtpub.com/book/data/9781789533385/10){.link},
 [*Tableau for Big Data*].
 
@@ -440,15 +430,14 @@ You might choose a different schema with a bigger dataset, such as 
 `TPCH_SF1000`.
 
 
-3.  Drag and drop tables onto the canvas. You should[]{#id324906128
-    .indexterm} already know the differences between Desktop and Prep.
+3.  Drag and drop tables onto the canvas. You should already know the differences between Desktop and Prep.
     Let\'s drag and drop the following tables:
      {.itemizedlist}
     -   **`LINEITEM`**
     -   **`ORDERS`**
     -   **`CUSTOMER`**
     
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -477,7 +466,7 @@ check the full dataset, you should adjust the **`LINEITEM`** source
 table component and eliminate sampling. We will do this at the end of
 the flow.
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -586,8 +575,7 @@ transformations are happening inside of Tableau Prep.
 
 
 
-You might think of this flow as the logic for a couple[]{#id326211946
-.indexterm} of metrics. With Tableau Prep, you can build as many streams
+You might think of this flow as the logic for a couple of metrics. With Tableau Prep, you can build as many streams
 as you want, then union them and create the Tableau Extract. For
 example, we could add a branch in the middle of my flow and start to
 create new metrics with different grouping options, and then Union with
@@ -603,10 +591,9 @@ steps: <https://onlinehelp.tableau.com/current/prep/en-us/prep_clean.htm>
 
 
 
-With Tableau Prep 2019.1 was released new feature---Tableau Prep
+With Tableau Prep 2019.1 was released new feature --- Tableau Prep
 Conductor. Prep Conductor is that server integration, and it unleashes
-the full potential of Tableau Prep to operationalize[]{#id326616179
-.indexterm} your data prep experience. With Prep Conductor, you can
+the full potential of Tableau Prep to operationalize your data prep experience. With Prep Conductor, you can
 schedule your flows to run, when, where, and how you want to. You can
 choose which outputs to schedule independently of one another. You can
 read more about this feature

@@ -1,11 +1,11 @@
 
 
-Chapter 7. Telling a Story with Tableau
+Lab 7. Telling a Story with Tableau
 ------------------------------------------------
 
 
 
-In this chapter, we will cover the following recipes:
+In this lab, we will cover the following recipes:
 -   Creating a Tableau Story
 -   Setting the narrative of the Story 
 -   Choosing the right charts
@@ -17,7 +17,7 @@ In this chapter, we will cover the following recipes:
 Technical requirements 
 ----------------------------------------
 
-To follow the recipes in this chapter, you will need to download the
+To follow the recipes in this lab, you will need to download the
 `Recycling_campaign_effects.csv` dataset from
 <https://github.com/SlavenRB/Storytelling_with_Tableau/blob/master/Recycling_campaign_effects.csv>
 and save it to your device.
@@ -28,7 +28,7 @@ Introduction
 ------------------------------
 
 So far, you have learned how to create individual charts and dashboards.
-In this chapter, you will go a step further and learn how to connect
+In this lab, you will go a step further and learn how to connect
 them in a meaningful Story. The Tableau Story functionality enables you
 to order visualizations in a logical and simple manner that helps your
 audience understand your insights better. Data that is presented within
@@ -43,8 +43,7 @@ picture will appear.
 Creating a Tableau story 
 ------------------------------------------
 
-In this recipe, you will be given an explanation[]{#id325357276
-.indexterm} and overview of the technical basics of creating a Tableau
+In this recipe, you will be given an explanation and overview of the technical basics of creating a Tableau
 story. In the following recipes, you will learn how to elaborate on the
 story, by picking adequate charts, putting them in the right order,
 writing insights, and formatting them in an appealing way. First, we
@@ -124,8 +123,7 @@ open Tableau, and connect it to your local copy of the data.
 
 ![](./images/7d0c6b76-8509-4197-baab-13b82bdd4665.png)
 
-14. Alternatively, click on the icon at the bottom[]{#id326224156
-    .indexterm} (circled in the following screenshot) of the screen to
+14. Alternatively, click on the icon at the bottom (circled in the following screenshot) of the screen to
     create a new story:
 
 ![](./images/27e3d2cf-c86a-4aaf-8838-972a6a17c53c.png)
@@ -137,7 +135,7 @@ open Tableau, and connect it to your local copy of the data.
     text editable and then type `Recycling`:
 
 ![](./images/399beee6-efed-4c3d-be0f-78f8264975e9.png)
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -165,8 +163,7 @@ recipes, we will learn how to write effective captions.
 
 
 
-Basically, the Tableau Story is a collection of multiple[]{#id326551163
-.indexterm} worksheets or dashboards that are organized in a planned
+Basically, the Tableau Story is a collection of multiple worksheets or dashboards that are organized in a planned
 order. It helps us walk the audience through our data in the right way.
 Using Tableau Story enables us to suggest the path, to guide our viewer
 through the data in a way that will help them see a meaningful Story
@@ -198,7 +195,7 @@ In your **`Story`**, it will look as follows:
     ![](./images/f7bd96fc-20ab-4112-80ec-f2868699eb8e.png)
         If you want to get rid of left/right arrows, just deselect
     the**`Show arrows`**checkbox.
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -327,8 +324,7 @@ perspective of your listener. In this case, our listener is a [**public
 relations**] ([**PR**]) manager of a milk
 manufacturing company. We need to step into their shoes and put their
 glasses on. Let's try to figure out what our PR manager can do about the
-fact that every third person that knows about recycling[]{#id325189377
-.indexterm} is possibly not motivated to practice it. As a PR manager,
+fact that every third person that knows about recycling is possibly not motivated to practice it. As a PR manager,
 we can try to think of ways to motivate those people. For example, we
 could organize a lottery game or give a discount to those who dispose of
 their garbage in specialized garbage bins. However, it is much more
@@ -352,8 +348,7 @@ out.
 
 
 
-In the Development phase, we are going to test[]{#id325189418
-.indexterm} our hypothesis. It\'s time to work around our business
+In the Development phase, we are going to test our hypothesis. It\'s time to work around our business
 problem.
 
 
@@ -522,8 +517,7 @@ a position to make an impact on the situation and to change the facts. 
 
 
 
-In the Resolution phase, we should properly articulate[]{#id325331122
-.indexterm} and communicate results to the relevant audience.
+In the Resolution phase, we should properly articulate and communicate results to the relevant audience.
 
 
 
@@ -578,7 +572,7 @@ in a story.
 
 
 
-The names of the phases in storytelling we use throughout this chapter
+The names of the phases in storytelling we use throughout this lab
 are just one of the many ways to conceive the storytelling process. In
 other sources, you might encounter phases that are a bit different or
 have different names for similar phases. However, the basic structure of
@@ -621,8 +615,7 @@ away from the main plot of the Story. 
 
 #### Getting ready
 
-For this recipe, we will need all the sheets that we have[]{#id324917629
-.indexterm} made so far:
+For this recipe, we will need all the sheets that we have made so far:
 -   `Awareness`
 -   `Recycling`
 -   `Aware but not recycling`
@@ -785,7 +778,7 @@ have[**.**]
 #### Getting ready
 
 It\'s time to wrap up our Story, so we will need all the sheets that we
-have made in this chapter so far:
+have made in this lab so far:
 -   `Awareness`
 -   `Recycling`
 -   `Aware but not recycling`
@@ -814,10 +807,8 @@ have made in this chapter so far:
 ![](data:image/png;base64,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)
 Then type the following paragraph:
 
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 Based on the results of our study, we can expect that promotional activities focused on the 15-24 age group can have a significant effect on their recycling habits. Because of that, our recommendation is to launch a promotional campaign that would be specifically designed in accordance with the media consumption habits of younger buyers. In this age group, we found that those who know about the possibility of recycling use it to a greater extent than the other groups. However, the awareness of the possibility of recycling milk cartons is lowest in this group. The current campaign was unsuccessful in raising awareness about recycling because it used a channel of communication that doesn’t reach young people. We can conclude that milk buyers within the 15-24 age group are responsive to the appeal to recycle, but we have to find a way to get the message across.
 ```
 
@@ -897,7 +888,7 @@ some tricks that can improve the visual identity of our presentation.
 #### Getting ready
 
 In this recipe, we are going to format the charts we\'ve made so far.
-Follow the previous recipes from this chapter: [*Creating a Tableau
+Follow the previous recipes from this lab: [*Creating a Tableau
 Story, Setting the narrative of the Story, Choosing the right charts,
 Writing effective headlines, Recommendation*] and [*executive
 summary *]to create the Story that we are going to be working
@@ -1000,7 +991,7 @@ bars, tick marks, and also the title in the vertical axis is
 sufficient.Due to the fact that the \"Awareness by Age\" title says
 enough, the label of the \"Age\" columns is redundant. 
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 

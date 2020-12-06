@@ -1,6 +1,6 @@
 
 
-Chapter 12. Advanced Analytics with Tableau
+Lab 12. Advanced Analytics with Tableau
 ----------------------------------------------------
 
 
@@ -17,7 +17,7 @@ Thischapterwillcoverthe following topics:
 Technical requirements 
 -----------------------------------------
 
-To follow the recipes from this chapter, you\'ll need to have Tableau
+To follow the recipes from this lab, you\'ll need to have Tableau
 2019.1 installed. You will also need to have R installed, as well as the
 `Rserve` library. To install the `Rserve` library,
 open a new R script by navigating to **`File `**\| **`New script`**:
@@ -26,10 +26,8 @@ open a new R script by navigating to **`File `**\| **`New script`**:
 ![](./images/ba1a606e-51bb-4462-8f57-9be4ba50cde4.png)
 Run the following code: 
 
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 install.packages('Rserve',repos='http://cran.us.r-project.org')
 ```
 You can run the code by selecting it and clicking the **`Run `**button 
@@ -43,7 +41,7 @@ or by pressing [*Ctrl*] + [*R*] on your keyboard.
 Introduction 
 -------------------------------
 
-In this chapter, you\'ll learn how to utilize joined capabilities of
+In this lab, you\'ll learn how to utilize joined capabilities of
 Tableau and R in order to perform some more advanced analytical tasks.
 This will enable us to dive below the surface and to discover hidden
 underlying patterns in our data. We\'ll learn how to identify and
@@ -103,8 +101,7 @@ your device and open Tableau and connect to it.
 
 ![](./images/3451a194-2463-43fc-9bdb-fbdb122e9b11.png)
 
-6.  Drag and drop **`Cluster`** from[]{#id325368318
-    .indexterm} **`Model`** into the view we have created:
+6.  Drag and drop **`Cluster`** from **`Model`** into the view we have created:
 
 ![](./images/a3bffc8c-31ed-47d9-b7f6-caf44866459e.png)
 
@@ -172,8 +169,7 @@ the following screenshot:
 
 If we navigate to the **`Models`** tab, we\'ll see the results of the
 **`Analysis of Variance,`** showing us which variables actually
-differentiate the clusters. The **`Models`** tab is shown[]{#id325442053
-.indexterm} in the following screenshot:
+differentiate the clusters. The **`Models`** tab is shown in the following screenshot:
 
 
 ![](./images/cecd5df6-f91e-4b68-a90c-e786213adf4b.png)
@@ -219,7 +215,7 @@ when we were creating the initial clusters.
     created a three-cluster solution:
 
 ![](./images/6bc2faa1-d56b-498a-bc2c-02cabc45992f.png)
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -280,7 +276,7 @@ that preserves the most information from the original dataset.
 
  
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -299,10 +295,8 @@ built-in R.
     appropriate locations on your device. After pasting the paths, make
     sure to replace the backslashes with
     double backslashes, as seen in the following code:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 pt <-read.table ("C:\\Users\\Slaven\\Desktop\\personality_ traits.csv", header=T, sep=",")
 pt.pc <- prcomp(pt, scale = TRUE)
 X1 <- pt.pc$x [, 1]
@@ -342,8 +336,7 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
 5.  From the **`Connect`** pane, select **`Text file`** and navigate to
     either of the files you have created---`pt.loadings.csv`
     or `scores.csv`. Select it and click **`Open`**.
-6.  In the **`Data Source`** page, remove the file[]{#id325189371
-    .indexterm} you\'ve connected to by right-clicking on it and
+6.  In the **`Data Source`** page, remove the file you\'ve connected to by right-clicking on it and
     selecting **`Remove`** from the drop-down menu:
 
 ![](./images/251561ec-1fec-4d98-99ee-59866694353e.png)
@@ -361,8 +354,7 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
     shelf.
 11. Drag and drop **`X2`** from **`Measures`** into the **`Rows`**
     shelf.
-12. Drag and drop **`PC1`** from **`Measures`**into[]{#id325192725
-    .indexterm} the **`Columns`** shelf, to the right of the
+12. Drag and drop **`PC1`** from **`Measures`**into the **`Columns`** shelf, to the right of the
     **`SUM(X1)`** pill.
 13. Drag and drop **`PC2`** from **`Measures`** into the **`Rows`**
     shelf, to the right of the **`SUM(X2)`** pill:
@@ -399,12 +391,11 @@ write.csv (pt.loadings, "C:\\Users\\Slaven\\Desktop\\pt.loadings.csv")
  
 
 
-20. Right-click on the **`PC2`** in the **`Rows`**shelf[]{#id325441870
-    .indexterm} and select **`Dual Axis`** from the drop-down menu.
+20. Right-click on the **`PC2`** in the **`Rows`**shelf and select **`Dual Axis`** from the drop-down menu.
     We\'ve finished our PCA and created a chart to visualizeit:
 
 ![](./images/312d10ad-2bcb-498c-adee-61cc531bc489.png)
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -458,7 +449,7 @@ and **`Altruism`** on one side, and **`Sensation-seeking`** and
 **`Assertiveness`** on the other side. This dimensions can be
 interpreted as speaking about cooperativeness versus competitiveness.
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -477,7 +468,7 @@ way to go since these two components carry the most information.
 However, sometimes we might wish to see the third, fourth, and so on,
 principal component.
 
- {.note style="margin-left: 0.5in; margin-right: 0.5in;"}
+
 
 **Note**
 
@@ -508,8 +499,7 @@ plot.
 Extracting the structure beneath discrete variables 
 ----------------------------------------------------------------------
 
-This recipe will guide you through the process[]{#id326676262
-.indexterm} of performing and visualizing the results of correspondence
+This recipe will guide you through the process of performing and visualizing the results of correspondence
 analysis. Correspondence analysis is a data reduction technique
 frequently used in brand image studies, but also in other types of
 research, because it allows us to neatly map brands on a map formed by
@@ -537,10 +527,8 @@ that description. Before we begin, make sure you\'ve saved the
     appropriate locations on your device. After pasting the paths, make
     sure to replace the backslashes with double backslashes, as seen in
     the following code block:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 install.packages('ca',repos='http://cran.us.r-project.org')
 library(ca)
 df <- read.table("C:\\Users\\Slaven\\Desktop\\telco_image.csv", header=T, sep=",")
@@ -582,8 +570,7 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
 7.  Drag and drop **`X`** from **`Measures`** into the **`Columns`**
     shelf.
 8.  Drag and drop **`Y`** from **`Measures`** into the **`Rows`** shelf.
-9.  Drag and drop **`Labels`**from[]{#id325272428
-    .indexterm}**`Dimensions`** onto **`Label`** in the **`Marks`**
+9.  Drag and drop **`Labels`**from**`Dimensions`** onto **`Label`** in the **`Marks`**
     card.
 10. Drag and drop **`Type`** from **`Dimensions`** onto **`Color`** in
     the **`Marks`** card.
@@ -623,9 +610,8 @@ write.csv(fin.data, "C:\\Users\\Slaven\\Desktop\\CA_input_data.csv")
 
 Correspondence analysis works similarly to PCA, which we covered in the
 first recipe, Discovering latent structure of the dataset, of this
-chapter. It reduces the number of dimensions that differentiate our
-cases (in this example, brands) so we have a clearer[]{#id325386982
-.indexterm} overview of how each of the brands is positioned. On the
+lab. It reduces the number of dimensions that differentiate our
+cases (in this example, brands) so we have a clearer overview of how each of the brands is positioned. On the
 [*x*] and [*y*] axes, we plotted the first two
 dimensions extracted by correspondence analysis, which have the same
 function as the first two principal components in the principal
@@ -689,7 +675,7 @@ measures by letting Tableau discover groups and patterns in the data.
 However, there are also situations where we already have a dimension
 labeling certain groups in our data, and we want to create a model that
 will predict group membership using other fields in our dataset. For
-this task, we can use a tree-based model. By the end of this chapter,
+this task, we can use a tree-based model. By the end of this lab,
 you\'ll have built a decision tree using a classification algorithm,
 while retaining a focus on a real-life business question.
 
@@ -722,10 +708,8 @@ Before we dive into the recipe, please make sure you have the
     sure to replace the backslashes with
     double backslashes, as in the following
     code block:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 install.packages('rpart',repos='http://cran.us.r-project.org')
 library(rpart)
 cars <- read.table("C:\\!Slaven\\6 KNJIGA\\4 Advanced analytics\\4 decision tree\\new_or_used_car.csv", header=T, sep=",")
@@ -742,10 +726,8 @@ text(fit, all=TRUE, cex=.8)
     keyboard.
 4.  In order to make the connection with Tableau possible, call the
     `Rserve` library by running the following code:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 library(Rserve)
 Rserve()
 ```
@@ -754,8 +736,7 @@ Rserve()
     dataset.
 6.  In the main menu toolbar, navigate to **`Help`** and, from the
     drop-down menu, select **`Settings and Performance`**. From the
-    additional drop-down menu[]{#id325185453
-    .indexterm} that will open, select
+    additional drop-down menu that will open, select
     **`Manage External Service Connection`**\...:
 
 ![](data:image/png;base64,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)
@@ -788,10 +769,8 @@ Rserve()
      {.blockquote}
     > **`Prediction`**
         and enter the following code block:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 SCRIPT_STR
 ('library(rpart);
 fit = rpart(FuturePurchase ~ Age + Gender + Education + FamilyStatus + CurrentCar + AgeOfCurrentCar + MunicipalityType,
@@ -816,9 +795,7 @@ ATTR([Municipality Type]))
 ```
 
 16. Click **`OK`** to exit the calculated field window.
-17. Drag and drop[]{#id326630870
-    .indexterm}**`Predictions`**from[]{#id326680476
-    .indexterm}**`Measures`** onto **`Color`** in the **`Marks`** card.
+17. Drag and drop**`Predictions`**from**`Measures`** onto **`Color`** in the **`Marks`** card.
 18. In main menu toolbar, go to **`Analysis`** and
     deselect **`Aggregate Measures`**.
 19. In the drop-down menu, change **`Standard`** to **`Entire Vie``w`**:
@@ -876,7 +853,7 @@ see how many of them you can expect to go for a new car---you can just
 feed that data into the model you\'ve already developed and get an
 estimate. For more details on how to do this,
 you can refer to the [*Forecasting based on
-multiple regression*] recipe in [Chapter
+multiple regression*] recipe in [Lab
 11](https://subscription.packtpub.com/book/data/9781789533385/11){.link},
 [*Forecasting with Tableau*].
 
@@ -896,14 +873,13 @@ multiple regression*] recipe in [Chapter
 Identifying anomalies in data 
 ------------------------------------------------
 
-When analyzing data we\'ll frequently encounter[]{#id326630834
-.indexterm} unusual cases, outliers, and anomalies. Those cases are
+When analyzing data we\'ll frequently encounter unusual cases, outliers, and anomalies. Those cases are
 different from the majority and they don\'t match the pattern that the
 rest of the cases fit in. Sometimes, we might want to identify them in
 order to remove them from the analysis,
 because they can skew our results. In other cases, we might be
 interested in analyzing them. Either way, it\'s very important to know
-how to deal with them properly. In [Chapter
+how to deal with them properly. In [Lab
 11](https://subscription.packtpub.com/book/data/9781789533385/11){.link},
 [*Forecasting with Tableau*], the [*Forecasting on a dataset
 with outliers*] recipe taught up how to deal with outliers on
@@ -927,10 +903,8 @@ we begin, make sure you have the dataset saved to your device.
 
 
 1.  Start R, open a new script and run the following code block:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 install.packages('mvoutlier',repos='http://cran.us.r-project.org')
 library(Rserve)
 Rserve()
@@ -940,8 +914,7 @@ Rserve()
     the `age_and_blood_pressure.csv` file.
 3.  In the main menu toolbar, navigate to **`Help`** and, from the
     drop-down menu, select **`Settings and Performance`**. From the
-    additional drop-down menu[]{#id325269185
-    .indexterm} that will open,
+    additional drop-down menu that will open,
     choose **`Manage External Service Connection...`**.
 4.  In the **`Server`** field, enter `localhost`.
 5.  In the **`Port`** field, enter `6311`.
@@ -958,10 +931,8 @@ Rserve()
     the drop-down menu, select **`Create Calculated Field...`**.
 11. Rename the new calculated field `Outliers` and enter the
     following code:
- {.informalexample}
- {.toolbar .clearfix}
-Copy
-``` {.programlisting .language-markup}
+
+```
 IF SCRIPT_REAL("library(mvoutlier);sign2(cbind(.arg1, .arg2))$wfinal01", AVG([Age]), AVG([Blood Pressure])) == 0 THEN "Outlier" ELSE "OK" END
 ```
  
@@ -977,8 +948,7 @@ IF SCRIPT_REAL("library(mvoutlier);sign2(cbind(.arg1, .arg2))$wfinal01", AVG([Ag
     drop-down menu, deselect **`Aggregate Measures`**. 
 13. Drag and drop **`Outliers`** from **`Measures`** onto **`Color`** in
     the **`Marks`** card. Our chart clearly shows the multidimensional
-    outliers now, as shown[]{#id325285853
-    .indexterm} in the following screenshot:
+    outliers now, as shown in the following screenshot:
 
 ![](./images/b41cae9d-dd75-4f98-8bfd-2c9cbcefdb9f.png)
 
@@ -1039,8 +1009,7 @@ in the same manner and detect the outliers.
 
 However, when operating with more than two dimensions, you won\'t be
 able to visualize the multidimensional outliers on a scatter plot as
-easily, since the pattern of values that makes[]{#id326294481
-.indexterm} them extreme is spread across various dimensions. If you
+easily, since the pattern of values that makes them extreme is spread across various dimensions. If you
 wish to represent them visually, you can check out the
 `uniplot` function
 (<https://www.rdocumentation.org/packages/mvoutlier/versions/2.0.9/topics/uni.plot>)
@@ -1054,6 +1023,6 @@ some insight on how the outlier values can be interpreted. 
 
 
 -    To find out more about the `mvoutlier` package we used in
-    this chapter and the detection of multivariate
+    this lab and the detection of multivariate
     outliers in general, visit this
     page: <https://cran.r-project.org/web/packages/mvoutlier/index.html>.
