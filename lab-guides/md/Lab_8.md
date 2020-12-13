@@ -184,13 +184,6 @@ Our final visualization can be seen in the following screenshot:
 ![](./images/7b96cb4f-1907-46f5-b421-d6e7d5c1b18a.png)
  
 
-#### See also
-
-
--   See VizWiz\'s blog post,
-    **`How to Create Waterfall Chart in Tableau`**under**`Tableau Tip Tuesday`** at <http://www.vizwiz.com/2015/05/waterfall.html>.
-
-
 
 Pareto chart 
 ------------------------------
@@ -332,15 +325,6 @@ After some cleanup, it should look like the following screenshot:
 
 
 
-#### See also
-
-
--   Please see Tableau\'s help page for another great resource for
-    creating [Pareto
-    charts](https://onlinehelp.tableau.com/current/pro/desktop/en-us/pareto.html){.ulink}.
-
-
-
 Bump chart 
 ----------------------------
 
@@ -450,14 +434,6 @@ steps.
     is our final chart:
 
 ![](./images/2b0a27af-1fad-4f1b-b314-8d42ffc10853.png)
-
-
-
-#### See also
-
-
--   To make curved lines on your bump chart, see this blog post at
-    <http://www.datatableauandme.com/2016/12/how-to-sigmoid-bump-chart-spline.html>.
 
 
 
@@ -821,19 +797,6 @@ The final chart can be seen in the following screenshot: 
 
 
 ![](./images/5c603e54-f90e-48bc-ab98-cd5202024e35.png)
-
-
-
-#### See also
-
-
--   See [stacked bar
-    charts](https://kb.tableau.com/articles/howto/stacked-bar-chart-multiple-measures){.ulink},
-    and [regular bar
-    charts](https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm){.ulink},
-    or the section for waffle charts in the [*Advanced
-    Visualizations*] lab for alternatives to see the
-    percent of totals.
 
 
 

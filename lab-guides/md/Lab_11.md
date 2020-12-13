@@ -183,14 +183,6 @@ are also available in Tableau. They can be accessed by navigating to
 A good way to choose the model is to first plot the data and visually
 inspect it.
 
-#### See also
-
-
--   Since statistical regression is a broad topic that greatly exceeds
-    the scope of this book, if you are interested in learning more about
-    the analysis itself, we highly recommend the following course:
-    <https://onlinecourses.science.psu.edu/stat501/>
-
 
 
 Forecasting on a dataset with outliers 
@@ -470,14 +462,6 @@ However, readers without any previous experience in R should be able to
 perform all the recipes.
 
 
-#### See also
-
-
-
-See more about R and Tableau integration at: 
--   <https://www.tableau.com/learn/whitepapers/using-r-and-tableau>
--   <https://www.tableau.com/solutions/r>
-
 
 
 Forecasting based on multiple regression 
@@ -606,14 +590,6 @@ original data set (in this case, `Cortmax`) for the script to
 work, even if it is completely empty. Also, make sure that all the other
 fields are also named exactly the same as in the original data set,
 where the model was created.
-
-
-#### See also
-
-
--   An excellent explanation can be found
-    at <https://onlinecourses.science.psu.edu/stat501/node/283/>
-
 
 
 Regression with random forest 
@@ -779,13 +755,7 @@ the fit that is observed for the training set is preserved in the test
 set, it is an indication that we did a good job. Otherwise, we need to
 reconsider our model.
 
-#### See also
 
--   To learn more about the random forest algorithm, you might want to
-    start at this
-    link: <https://www.stat.berkeley.edu/~breiman/RandomForests/cc_home.htm>,
-    belonging to the authors of the algorithm, Leo Breiman, and Adele
-    Cutler
 
 
 
@@ -916,9 +886,3 @@ intervals on or off. We can also choose among the 90%, 95%, and 99%
 prediction intervals.
 
 
-#### See also
-
-
--   For more information on forecasting in Tableau, see this excellent
-    Tableau help resource
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/forecast_create.html>.[** **]

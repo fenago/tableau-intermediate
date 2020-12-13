@@ -562,16 +562,6 @@ important to delete this group so it doesn\'t cause conflicts with the
 other group permissions.
 
 
-#### See also
-
-
-
-A big part of server administration is monitoring and tuning an
-environment. It is important to ensure that Tableau Server is healthy.
-Tableau has published a great guide for setting up notifications,
-monitoring, and tuning. Refer
-to <https://onlinehelp.tableau.com/current/guides/everybody-install/en-us/everybody_admin_monitor.htm>.
-
 
 
 Deploying Tableau Server on Linux using AWS 
@@ -916,24 +906,6 @@ which can be found here:
 <https://onlinehelp.tableau.com/current/server-linux/en-us/ts_aws_multiple_server.htm>.
 
 
-#### See also
-
-
-
-Before moving to the next recipe, I want to highlight one more useful
-option for you server. You can simply customize your server\'s
-appearance by adding your logo and company name. You should use this
-resource:
-
-<https://onlinehelp.tableau.com/current/server/en-us/cli_customize.htm>
-
-We have started to work with AWS and we have touched on a lot of AWS
-concepts. There are a couple of great AWS whitepapers you can refer to:
--   [*Architecting for the Cloud*]: AWS Best
-    Practices: <https://d0.awsstatic.com/whitepapers/AWS_Cloud_Best_Practices.pdf>.
--   [*AWS Well-Architected Framework*]: <https://d1.awsstatic.com/whitepapers/architecture/AWS_Well-Architected_Framework.pdf>.
-
-
 
 Getting started with Tabcmd 
 ----------------------------------------------
@@ -1064,14 +1036,3 @@ Finally, you should consider using internal Windows Task Scheduler to
 schedule Tabcmd scripts (Batch files) that can be found here: <https://en.wikipedia.org/wiki/Windows_Task_Scheduler>.
 
 
-#### See also
-
-
--   Finally, I wish to highlight a couple more server admin tools. First
-    of all, you can check this GitHub repository for many useful
-    utilities and try them in action at the following
-    URL <https://github.com/tableau> .
--   They are very handy when you are doing troubleshooting. Another
-    resource is Tableau Server Client library for Python, which is
-    available at the following
-    URL: <https://tableau.github.io/server-client-python/#>.

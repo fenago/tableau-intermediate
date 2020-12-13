@@ -24,7 +24,7 @@ Perform advanced dashboard, visualization, and analytical techniques with Tablea
 
 ### Labs
 
-Labs for this course are available at endpoints shared below. Update `<host-ip>` with the lab environment DNS.
+Labs for this course are listed below:
 
 1. Getting Started with Tableau Software
 2. Data Manipulation

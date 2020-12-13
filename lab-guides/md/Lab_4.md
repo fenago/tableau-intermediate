@@ -143,13 +143,6 @@ be applied to strings, but can be applied to numerical values. In the drop-down 
 functions, you can select functions suited for different data types.
 
 
-#### See also
-
-
--   For more detailed input on calculated fields, see the
-    **`Tableau Help`** page
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/functions_operators.html>.
-
 
 
 Implementing quick table calculations 
@@ -242,13 +235,6 @@ recipe, **`Civilian Labor Force`**), and select
 relevant parameters based on the calculation type you select.
 
 
-### See also    
-
-
--   See the detailed **`Tableau Help`** page for an in-depth overview of
-    table calculations, including quick table
-    calculations,
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/calculations_tablecalculations.html>[**.**]
 
 
 
@@ -354,12 +340,6 @@ members into a single group, named **`Other`**:
 
 
 
-#### See also
-
-
--   For more on grouping, see the **`Tableau Help`** page on the
-    topic
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/sortgroup_groups_creating.html#Include>.
 
 
 
@@ -477,11 +457,6 @@ following screenshot:
 
 
 
-#### See also
-
-
--   See the **`Tableau Help`** page on sets for more information
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/sortgroup_sets_create.html>.
 
 
 
@@ -621,13 +596,6 @@ They are included by creating a calculated field that takes advantage of
 the parameter, and then including the calculated field in the view.
 
 
-#### See also
-
-
--   Tableau help has some useful resources on parameters. Make
-    sure you check out the following
-    page: <https://onlinehelp.tableau.com/current/pro/desktop/en-us/changing-views-using-parameters.html>.
-
 
 
 Implementing the basics of level of detail expressions 
@@ -740,13 +708,7 @@ Let\'s take a quick look at what they do:
 
 
 
-### See also                                   
 
-
--   For an excellent explanation of LOD expressions, read
-    the Tableau white paper about them
-    at <https://www.tableau.com/learn/whitepapers/understanding-lod-expressions>[** 
-                              **]
 
 
 Implementing the basics of level of detail expressions 
@@ -858,14 +820,6 @@ Let\'s take a quick look at what they do:
     points, they are aggregated at a higher level.
 
 
-
-### See also                                   
-
-
--   For an excellent explanation of LOD expressions, read
-    the Tableau white paper about them
-    at <https://www.tableau.com/learn/whitepapers/understanding-lod-expressions>[** 
-                              **]
 
 
 
@@ -983,13 +937,6 @@ this method. For example, once we import it, we can reuse it in other
 workbooks as well.
 
 
-#### See also
-
-
--   See this Tableau help resource for more details on
-    custom geocoding
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/custom_geocoding.html>
-
 
 
 Using polygons for analytics 
@@ -1076,10 +1023,3 @@ shape we like and use it in our visualizations. Mapping an image does
 require some patience, but getting a visualization of a customized shape
 that can be reused can be well worth it!
 
-
-#### See also
-
-
--   For more information, check out this Tableau resource on
-    polygon maps
-    at <https://www.tableau.com/learn/tutorials/on-demand/polygon-maps-8>.

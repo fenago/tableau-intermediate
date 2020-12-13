@@ -204,17 +204,6 @@ simple and remember that less is more!
 
 
 
-#### See also
-
-
-
-You can learn more about creating stories by
-using the following resources:
--   [https://onlinehelp.tableau.com/current/pro/desktop/en-us/Story\_create.html](https://onlinehelp.tableau.com/current/pro/desktop/en-us/story_create.html){.ulink}
--   [https://www.encorebusiness.com/blog/tableau-tips-tricks-tableau-Story-telling/](https://www.encorebusiness.com/blog/tableau-tips-tricks-tableau-story-telling/){.ulink}
--   <https://www.coursera.org/learn/dataviz-dashboards>
-
-
 
 Setting the narrative of the Story 
 ----------------------------------------------------
@@ -845,14 +834,6 @@ people find it easier to focus on a specific course of action or
 recommendation first, and then consider all the pros and cons of it.
 
 
-#### See also
-
-
--   Check out Barbara Minto\'s website for more details about the
-    Pyramid principle
-    at <http://www.barbaraminto.com/>.
-
-
 
 Formatting the Story 
 --------------------------------------
@@ -992,8 +973,3 @@ sheets. When you open the Story again, you will find that it has been
 updated with the changes you made.
 
 
-#### See also
-
-
--   For more tips on how to make your presentation look stylish, check
-    out <https://www.tableau.com/about/blog/2017/10/7-tips-and-tricks-dashboard-experts-76821>.

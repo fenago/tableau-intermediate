@@ -173,16 +173,6 @@ matches the location of points from one table to polygons in another
 table, joining data when a point lies within a polygon.
 
 
-#### See also
-
-
--   For more detailed information on joining and troubleshooting your
-    joins, you can refer to the **`Tableau Help`** page on the topic
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/joining_tables.htm#About>.
--   More information on spatial joins can be found
-    at <https://www.tableau.com/about/blog/2018/8/perform-advanced-spatial-analysis-spatial-join-now-available-tableau-92166>.
-
-
 
 Adding a secondary data source 
 ------------------------------------------------
@@ -299,12 +289,6 @@ careful to use them in separate worksheets to prevent data blending. If
 you try using two data sources in the same worksheet, Tableau will
 automatically try to blend them. We will talk more about data blending
 in the next recipe, [*Data blending*].
-
-#### See also
-
-
--   Feel free to refer to this page for more
-    information: <https://kb.tableau.com/articles/howto/connecting-multiple-data-sources-without-joining-or-blending>
 
 
 
@@ -431,15 +415,6 @@ relationships.
 
 
 
-###  See also
-
-
--   You can find more information on data blending on the
-    **`Tableau Help`** page on the topic
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.htm>
-
-
-
 Data union 
 ----------------------------
 
@@ -512,12 +487,6 @@ This means setting up search criteria to search for a string in tables\'
 names, and letting Tableau automatically union the tables the names of
 which satisfy the specified criteria.
 
-
-#### See also
-
-
--   For more information on data unions, see the **`Tableau Help`** page
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/union.htm>
 
 
 
@@ -617,14 +586,6 @@ pivoting.
 
 You can also pivot your data by using a custom SQL query, by simply
 adding the `UNION ALL` operator to it.
-
-
-#### See also
-
-
--   Check out the **`Tableau Help`** page on data pivoting, including
-    pivoting with SQL queries
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/pivot.htm>
 
 
 Preparing data 
@@ -829,12 +790,3 @@ than not, the dataset you\'re using will also be too large to manually
 correct the fields that aren\'t properly split. For those and similar
 cases, Tableau offers custom splits, as well as splitting the fields
 through regular expressions.
-
-#### See also
-
-
--   See the **`Tableau Help`** page on splitting data
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/split.htm>.
--   Also, you can refer to:
-    <https://onlinehelp.tableau.com/current/pro/desktop/en-us/datafields_fieldproperties_aliases_ex1editing.htm>
-    for more information on creating and editing aliases.

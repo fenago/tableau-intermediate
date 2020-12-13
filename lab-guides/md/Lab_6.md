@@ -164,12 +164,6 @@ Dashboards can be linked with one another and filtered across. We will
 cover this in detail in the upcoming recipes.
 
 
-#### See also
-
-
--   You can explore creating dashboards some more using the Tableau help
-    resources
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/dashboards_create.html>.
 
 
 
@@ -316,14 +310,6 @@ well, and use the dashboard formatting options to bring it all together
 and add some final touches.
 
 
-#### See also
-
-
--   For some more tips on dashboard design, you can refer to the Tableau
-    help resources
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/dashboards_best_practices.html>
--   You may also check out the Tableau public gallery for some
-    inspirational designs: <https://public.tableau.com/en-us/s/gallery>
 
 
 
@@ -516,12 +502,6 @@ filters in your dashboard, as it can help your end users narrow down to
 the data they need.
 
 
-#### See also
-
-
--   For more information on filtering, check out **`Tableau Help`** at
-    <https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.html>.
-
 
 
 Setting filters across various data sources 
@@ -660,12 +640,6 @@ conditions for data blending are satisfied, they can all be used to
 filter across the worksheet from other dashboards.
 
 
-#### See also
-
-
--   For more on data blending, see the **`Tableau Help`** page
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/multiple_connections.html>
-
 
 
 Adding highlight actions 
@@ -784,12 +758,6 @@ what kind of effect you would like to achieve, other ways to run your
 action might be more appropriate.
 
 
-#### See also
-
-
--   For some more information on highlight actions, see the Tableau help
-    resource on highlight actions at
-    <https://onlinehelp.tableau.com/current/pro/desktop/en-us/actions_highlight.html>.
 
 
 
@@ -971,12 +939,6 @@ leading to a messy look.
 
 
 
-#### See also
-
-
--   Check out the Tableau help resources on
-    setting dashboard layouts
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/dashboards_organize_floatingandtiled.html#Control>.
 
 
 
@@ -1208,9 +1170,3 @@ areas on the dashboard. You can find out more about dashboard extensions
 at <https://www.tableau.com/about/blog/2018/6/announcing-dashboard-extensions-20182-beta-89581>.
 
 
-#### See also
-
-
--   For more information on filtering with parameters, see the
-    **`Tableau Help`** page on the topic
-    at <https://www.tableau.com/about/blog/2012/7/filtering-parameters-18326>.

@@ -699,12 +699,6 @@ of any changes or updates by using the `ANALYZE` and
 `VACUUM` commands.
 
 
-#### See also
-
-
--   You can learn more about options for loading data into Redshift
-    at <https://docs.aws.amazon.com/redshift/latest/dg/t_Loading_data.html>
-
 
 
 Connecting to Amazon Redshift Spectrum 
@@ -841,15 +835,6 @@ Amazon Athena at
 <https://docs.aws.amazon.com/athena/latest/ug/what-is.html>.
 
 Finally, you can drop your cluster if you no longer need it.
-
-
-#### See also
-
-
--   [*Amazon Redshift Spectrum---Exabyte-Scale In-Place Queries of S3
-    Data*] with 6+ billions of rows
-    at <https://aws.amazon.com/blogs/aws/amazon-redshift-spectrum-exabyte-scale-in-place-queries-of-s3-data/>
-
 
 
 Connecting to Snowflake 
@@ -1249,26 +1234,6 @@ Matillion ETL here: 
 <https://www.matillion.com/etl-for-snowflake/>
 
 
-#### See also
-
-
--   There are couple more great features of Snowflake that can be handy
-    for Tableau users. The first one is [**Snowflake Time
-    Travel**]. Imagine the situation
-    where your business dashboard gives your wrong metrics, but you feel
-    that yesterday or last week the numbers were different? There is no
-    way to check this. However, with the Time Travel feature we can
-    easily query tables from the past. You
-    can adjust the existing data source with custom SQL and travel back
-    in time. You can learn more
-    here <https://docs.snowflake.net/manuals/user-guide/data-time-travel.html>
--   The second feature is [**Snowflake Data Sharing**]. This
-    feature allows us to enable data
-    consumers with access read-only copies of live data that\'s in a
-    data provider account. You can think about creating a virtual copy
-    of a database with special permissions. You can learn more here:
-    <https://docs.snowflake.net/manuals/user-guide-data-share.html>
-
 
 
 Connecting Amazon Elastic MapReduce with Apache Hive 
@@ -1451,12 +1416,6 @@ You can learn more about Apache Hive here:
 <https://docs.aws.amazon.com/emr/latest/ReleaseGuide/emr-hive.html>
 
 
-#### See also
-
-
--   You can visit the official page for
-    Apache Hive at <https://hive.apache.org/>
-
 
 
 Connect Tableau with  Apache Hive 
@@ -1525,17 +1484,3 @@ cons. You can read more here:
 
 <https://vision.cloudera.com/impala-v-hive/>
 
-
-#### See also
-
-
--   There is a good article about designing for
-    performance using Hadoop Hive
-    at <https://community.tableau.com/docs/DOC-10244>
--   You can learn more about Hive at
-    <https://cwiki.apache.org/confluence/display/Hive/Tutorial> 
--   You can learn more about Amazon EMR in the following video link: [*A
-    technical Introduction to Amazon
-    EMR*], <https://youtu.be/WnFYoiRqEHw>
--   [*Amazon EMR Deep Dive & Best Practices*]
-    at: <https://youtu.be/4HseALaLllc>

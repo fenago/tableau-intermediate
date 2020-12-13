@@ -139,17 +139,6 @@ plot:
 
 
 
-#### See also
-
-
-
-To learn more about dot plots, use the following links as a starting point:
--   <https://uc-r.github.io/cleveland-dot-plots>
--   <https://en.wikipedia.org/wiki/Dot_plot_(statistics)>
--   <http://www.storytellingwithdata.com/blog/2018/8/1/swdchallenge-lets-plot-with-a-dot>
-
-
-
 Sankey diagrams 
 ---------------------------------
 
@@ -289,7 +278,7 @@ extension. We configured it for **`Sankey Diagram`**.
 
 
 
-There are several ways to create a Sankey chart published on various
+There are several ways to create a Sankey chart published on various                                                                                                           
 blogs. Ian Balwin\'s post on [*Information Lab*] is excellent
 because it is flexible and does not require outside data prep. However,
 there are many calculations, which can make it hard to follow. But once
@@ -820,16 +809,6 @@ were arranged in a similar, relative place as each state. The custom
 shape helped tie the visualization together in a compact way.
 
 
-#### See also
-
-
-
-Here are some examples of user community
-hexmap plots for other countries:
--   <https://revizited.com/how-to-create-hex-tile-map-for-india-in-tableau/>
--   <https://www.sportschord.com/single-post/2018/02/12/Maps-in-Tableau-Part-1---UK-Hex-Tile-Map>
-
-
 
 Waffle charts 
 -------------------------------
@@ -976,16 +955,5 @@ seen in the following screenshot:
 
 ![](./images/100f9b31-4bb8-4942-a5f4-1d09bb31207b.png)
 
-
-
-#### See also
-
-
--   See use cases for Pie charts
-    (<https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_pie.htm>) and
-    Bar charts
-    (<https://onlinehelp.tableau.com/current/pro/desktop/en-us/buildexamples_bar.htm>),
-    or the lab for Donut charts. They are
-    used in a similar manner to Waffle charts.
 
 

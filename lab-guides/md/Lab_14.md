@@ -179,16 +179,6 @@ ones is [*Power Tools for Tableau -- Performance Analyzer*].
 Feel free to check it
 out: <http://powertoolsfortableau.com/performance-analyzer-comes-to-workbook-tools-tableau>.
 
- 
-
-#### See also
-
-
--   For more information about assessing workbook performance, check out
-    the excellent **`Tableau Help`** section on optimizing workbook
-    performance:
-    <https://onlinehelp.tableau.com/current/pro/desktop/en-us/performance_tips.htm>.
-
 
 
 Performance troubleshooting and best practices 
@@ -401,14 +391,6 @@ free to explore the options until you find the tool that addresses your
 needs the best.
 
 
-#### See also
-
-
--   For more tips and tricks, check out the **`Tableau Help`** page on
-    performance
-    tuning: <https://onlinehelp.tableau.com/current/server/en-us/perf_tuning.htm>.
-
-
 
 Troubleshooting through log files 
 ----------------------------------------------------
@@ -502,9 +484,3 @@ Each of the mentioned third-party software provides clear guidance for
 installation and usage, so feel free to explore.
 
 
-#### See also
-
-
--   If you aren\'t sure how to reach Tableau support, you can find
-    detailed instructions here:
-    <https://kb.tableau.com/articles/howto/submitting-a-case-from-the-customer-portal>.

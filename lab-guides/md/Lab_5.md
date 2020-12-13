@@ -123,12 +123,6 @@ window, select **`By formula`**, and Tableau will allow you to type in
 your custom expression to filter by.
 
 
-#### See also
-
-
--   For more information on top N filtering, read the Tableau
-    resource
-    at <https://kb.tableau.com/articles/howto/using-a-top-n-parameter-to-filter-a-table>
 
 
 Adding filters to context 
@@ -221,13 +215,6 @@ cases of multiple filters or very large data sources, which would
 normally be slowed down by an additional filter.
 
 
-#### See also
-
-
--   For more on context filters, see the
-    **`Tableau Help`**article on the topic
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering_context.html>
-
 
 
 Creating a measure filter 
@@ -307,12 +294,6 @@ option provides the opposite---the minimum value is kept at the minimum
 value available in the dataset, while we can adjust the highest value.
 
 
-#### See also
-
-
--   For more information on filtering by measures, read
-    the**` `**comprehensive **`Tableau Help`**guide to filtering
-    at [https://onlinehelp.tab](https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.html){.ulink}[leau.com/current/pro/desktop/en-us/filtering.html](https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.html){.ulink}
 
 
 
@@ -398,13 +379,6 @@ like to filter by, while the starting date is set to the earliest
 available date in our data source.
 
 
-#### See also
-
-
--   For more information on filtering by dates, read
-    the**` `**comprehensive**`Tableau Help`**
-    guide to filtering
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.html>
 
 
 
@@ -477,14 +451,6 @@ Finally, besides setting a fixed date as we did in this recipe, we can
 also choose **`Today`**, **`Yesterday`**, or **`Tomorrow`** as the
 anchor dates, which is very useful when we want to have a view that is
 updated with fresh data relative to the current date.
-
-
-#### See also
-
-
--   For more information on filtering by dates, read
-    the**` `**comprehensive **`Tableau Help`**guide to filtering
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/filtering.html>
 
 
 
@@ -629,13 +595,6 @@ by.
 
  
 
-#### See also
-
-
--   To gain a deeper understanding of how Tableau performs operations,
-    read the useful **`Tableau Help`** page on the order of operations
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/order_of_operations.html>
-
 
 
 Implementing action filters  
@@ -763,9 +722,3 @@ clearing the selection, we can choose to leave the filter, show all
 values, or exclude all values.
 
 
-#### See also
-
-
--   For more information on filter actions, see the
-    **`Tableau Help`**page on the topic
-    at <https://onlinehelp.tableau.com/current/pro/desktop/en-us/actions_filter.html>

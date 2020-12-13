@@ -214,15 +214,6 @@ when we were creating the initial clusters.
 Always be careful with setting the number of clusters and don\'t
 increase it unless you have a good reason to do so. Simpler solutions
 are usually better!
-#### See also
-
-
--   To learn more about k-means clustering,
-    start here: <https://en.wikipedia.org/wiki/K-means_clustering>
--   For more information about running
-    cluster analysis in Tableau, feel free to visit
-    the **`Tableau Help`** page on the
-    topic: <https://onlinehelp.tableau.com/current/pro/desktop/en-us/clustering.htm>
 
 
 
@@ -454,22 +445,6 @@ plot.
 
 
 
-#### See also
-
-
--   For more information on PCA, you may want
-    to start here:
-    <https://en.wikipedia.org/wiki/Principal_component_analysis>
--   To find out more about the `prcomp` function that we used
-    to implement the analysis, see the documentation:
-    <https://www.rdocumentation.org/packages/kazaam/versions/0.1-0/topics/prcomp>
--   Since the book is not meant to provide a comprehensive introduction
-    to R language or data science reader is
-    encouraged to refer the following links:
--   <https://www.statmethods.net/index.html>
--   [https://www.r-bloggers.com](https://www.r-bloggers.com/){.ulink}
--   [https://www.datacamp.com](https://www.datacamp.com/){.ulink}
-
 
 
 Extracting the structure beneath discrete variables 
@@ -615,19 +590,6 @@ plot to interpret the dimensions created by them. In our example, the
 ranging from affordable/simple offer to high-tech/innovative, while the
 [*x*] axis could be interpreted as being
 trustworthy/friendly/transparent on one pole, and youthful on the other.
-
-
-#### See also
-
-
--   If you\'re interested in gaining a more in-depth understanding of
-    the correspondence analysis itself, you may want to
-    start with this article:
-    <https://en.wikipedia.org/wiki/Correspondence_analysis>
--   For more information on the R `ca` package that
-    we used to run the analysis, you can
-    refer to this link:
-    <https://cran.r-project.org/web/packages/ca/index.html>
 
 
 
@@ -803,17 +765,6 @@ see how many of them you can expect to go for a new car---you can just
 feed that data into the model you\'ve already developed and get an
 estimate.
 
-#### See also
-
-
--   If you\'re interested in learning more about tree-based models, you
-    may want to start at the following link:
-    <https://en.wikipedia.org/wiki/Decision_tree_learning#General>
--   For more information about the `rpart` library we
-    used in this recipe, start here:
-    <https://cran.r-project.org/web/packages/rpart/rpart.pdf>
-
-
 
 Identifying anomalies in data 
 ------------------------------------------------
@@ -951,11 +902,3 @@ the pattern of values into a series of unidimensional projections.
 Although it isn\'t as neat as Tableau visualizations, it\'ll provide
 some insight on how the outlier values can be interpreted. 
 
-
-#### See also
-
-
--    To find out more about the `mvoutlier` package we used in
-    this lab and the detection of multivariate
-    outliers in general, visit this
-    page: <https://cran.r-project.org/web/packages/mvoutlier/index.html>.
