@@ -379,7 +379,7 @@ day we can add the new rows based on date instead.
 
 #### Getting ready
 
-Use Tableau 2019.x, make sure you have a data source ready.
+Use Tableau 2020.x, make sure you have a data source ready.
 
 
 #### How to do it..

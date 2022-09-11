@@ -1,10 +1,10 @@
 <img align="right" src="./images/logo.png">
 
 
-<h2><span style="color:red;"></span></h2>
+<h2><span style="color:red;">Tableau Desktop II / Intermediate</span></h2>
 
 ### Description
-Perform advanced dashboard, visualization, and analytical techniques with Tableau Desktop and Tableau Prep.
+Perform advanced dashboard, visualization, and analytical techniques with Tableau Desktop.
 
 **Key Features**
 - Unique problem-solution approach to aid effective business decision-making
@@ -16,11 +16,7 @@ Perform advanced dashboard, visualization, and analytical techniques with Tablea
 - Understand the basic and advanced skills of Tableau Desktop
 - Implement best practices of visualization, dashboard, and storytelling
 - Learn advanced analytics with the use of build in statistics
-- Deploy the multi-node server on Linux and Windows
-- Use Tableau with big data sources such as Hadoop, Athena, and Spectrum
 - Cover Tableau built-in functions for forecasting using R packages
-- Combine, shape, and clean data for analysis using Tableau Prep
-- Extend Tableau’s functionalities with REST API and R/Python
 
 ### Labs
 
@@ -42,4 +38,4 @@ Labs for this course are listed below:
 ### About
 Tableau has been one of the most popular business intelligence solutions in recent times, thanks to its powerful and interactive data visualization capabilities
 
-This course is enriched with features such as Tableau extracts, Tableau advanced calculations, geospatial analysis, and building dashboards. It will guide you with exciting data manipulation, storytelling, advanced filtering, expert visualization, and forecasting techniques using real-world examples. From basic functionalities of Tableau to complex deployment on Linux, you will cover it all. Moreover, you will learn advanced features of Tableau using R, Python, and various APIs. You will learn how to prepare data for analysis using the latest Tableau Prep. 
+This course is enriched with features such as Tableau extracts, Tableau advanced calculations, geospatial analysis, and building dashboards. It will guide you with exciting data manipulation, storytelling, advanced filtering, expert visualization, and forecasting techniques using real-world examples. From basic functionalities of Tableau to complex deployment on Linux, you will cover it all. Moreover, you will learn advanced features of Tableau using R, Python, and various APIs.

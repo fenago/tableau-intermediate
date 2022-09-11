@@ -22,7 +22,7 @@ Technical requirements
 -----------------------------------------
 
 To follow the recipes from this lab, you will need to have Tableau
-2019.1 installed. You will also need to install the latest version of R
+2020.1 installed. You will also need to install the latest version of R
 software for statistical computing. R software is free and can be
 downloaded from <https://cran.r-project.org/>.
 

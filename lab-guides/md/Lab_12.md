@@ -19,7 +19,7 @@ Technical requirements
 -----------------------------------------
 
 To follow the recipes from this lab, you\'ll need to have Tableau
-2019.1 installed. You will also need to have R installed, as well as the
+2020.1 installed. You will also need to have R installed, as well as the
 `Rserve` library. To install the `Rserve` library,
 open a new R script by navigating to **`File `**\| **`New script`**:
 

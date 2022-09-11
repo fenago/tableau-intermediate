@@ -19,7 +19,7 @@ In this lab, we will cover the following topics:
 Technical requirements 
 ----------------------------------------
 
-We will use Tableau 2019.x and datasets about potholes, coal emissions,
+We will use Tableau 2020.x and datasets about potholes, coal emissions,
 soccer rankings, alien sightings, avocado prices, and snowfall.
 
 
