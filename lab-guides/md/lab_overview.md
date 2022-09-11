@@ -38,10 +38,6 @@ Labs for this course are listed below:
 10. Tableau for Big Data
 11. Forecasting with Tableau
 12. Advanced Analytics with Tableau
-13. Deploy Tableau Server
-14. Tableau Troubleshooting
-15. Preparing Data for Analysis with Tableau Prep
-16. ETL Best Practices for Tableau 
 
 ### About
 Tableau has been one of the most popular business intelligence solutions in recent times, thanks to its powerful and interactive data visualization capabilities
