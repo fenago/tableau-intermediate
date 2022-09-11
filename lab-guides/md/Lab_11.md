@@ -47,12 +47,6 @@ Tableau. Using R functionality, we will be able to deal with slightly
 more complex datasets and perform more sophisticated forecasting.
 
 
-> [*\"Prediction is difficult, especially if it\'s about the future.\"  
->                                                                      
->                                      -- Niels Bohr*]
-
-
-
 Basic forecasting and statistical inference 
 --------------------------------------------------------------
 
