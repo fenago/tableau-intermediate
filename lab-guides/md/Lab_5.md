@@ -22,7 +22,7 @@ Introduction
 
 In this lab, we will mostly be using the `Winery.csv`
 dataset, originally found on
-[Kaggle.com](https://www.kaggle.com/){.ulink}. It contains data on
+[Kaggle.com](https://www.kaggle.com/). It contains data on
 wines which winery they belong to, which province they originate from,
 number of points, price of the wine, and the name of the wine taster who
 rated them, among other details.
@@ -31,7 +31,7 @@ In the two recipes dealing with date filters, [*Creating date range
 filters*] and [*Creating relative date filters,*]
 we will be using the `Bread_basket.csv` dataset, which
 contains transactions from a bakery with their dates. This dataset was
-also originally found on [Kaggle.com](https://www.kaggle.com/){.ulink}.
+also originally found on [Kaggle.com](https://www.kaggle.com/).
 
 
 

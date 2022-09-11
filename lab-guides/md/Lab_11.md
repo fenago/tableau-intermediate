@@ -30,7 +30,7 @@ In the following recipes, we will be using
 the `hormonal_response_to_excercise.csv` and
 `stock_prices.csv` datasets, which you can download from the
 following URLs:
--   [https://github.com/SlavenRB/Forecasting-with-Tableau/blob/master/hormonal\_response\_to\_excercise.csv](https://github.com/SlavenRB/Forecasting-with-Tableau/blob/master/hormonal_response_to_excercise.csv.){.ulink}
+-   [https://github.com/SlavenRB/Forecasting-with-Tableau/blob/master/hormonal\_response\_to\_excercise.csv](https://github.com/SlavenRB/Forecasting-with-Tableau/blob/master/hormonal_response_to_excercise.csv.)
 -   <https://github.com/SlavenRB/Forecasting-with-Tableau/blob/master/stock-prices.txt>
 Please make sure you have a local copy of the dataset saved to your
 device before we begin.

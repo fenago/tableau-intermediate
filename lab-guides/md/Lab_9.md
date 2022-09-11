@@ -285,7 +285,7 @@ there are many calculations, which can make it hard to follow. But once
 it\'s set, there is a great deal of flexibility because of how the
 dimensions and measures have been created. The following
 directions are taken from his blog post
-at[ https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/){.ulink}.
+at[ https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/](https://www.theinformationlab.co.uk/2018/03/09/build-sankey-diagram-tableau-without-data-prep-beforehand/).
 
 Use `Beer.twbx`, `beers.csv`, and
 `breweries.csv` to work through this example:

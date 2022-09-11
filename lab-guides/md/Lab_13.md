@@ -324,7 +324,7 @@ capasity. This is advance topic and it depends on organization needs.
 You may learn more about sizing of Tableau Server in White Paper Tableau
 Server Scalability - A Technical Deployment Guide for Server
 Administrators Read more at
-[https://www.tableau.com/learn/whitepapers/tableau-server-scalability-technical-deployment-guide-server-administrators\#OcvXkMS7csDuTIRu.99](https://www.tableau.com/learn/whitepapers/tableau-server-scalability-technical-deployment-guide-server-administrators){.ulink}
+[https://www.tableau.com/learn/whitepapers/tableau-server-scalability-technical-deployment-guide-server-administrators\#OcvXkMS7csDuTIRu.99](https://www.tableau.com/learn/whitepapers/tableau-server-scalability-technical-deployment-guide-server-administrators)
 
 
 
@@ -794,7 +794,7 @@ tsm settings import -f /tmp/auth.json
 ```
 If you need any other option, you can check templates here:
 
-<https://onlinehelp.tableau.com/current/server-linux/en-us/entity_identity_store.htm>[ ](https://onlinehelp.tableau.com/current/server-linux/en-us/entity_identity_store.htm){.ulink}
+<https://onlinehelp.tableau.com/current/server-linux/en-us/entity_identity_store.htm>[ ](https://onlinehelp.tableau.com/current/server-linux/en-us/entity_identity_store.htm)
 
 In addition we can configure SMTP (mail server), SSL, and so on.
 Moreover, we can use the TSM GUI and enter all these settings much more

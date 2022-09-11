@@ -94,7 +94,7 @@ fast, secure, and petabyte-scale. Redshift combines the following two important 
 -   [**Massively parallel processing**] ([**MPP**])
 You can learn more about MPP and column databases on the Internet. You
 can find more information about Redshift at AWS\'s
-documentation: [https://docs.aws.amazon.com/redshift/index.html](https://docs.aws.amazon.com/redshift/index.html#lang/en_us){.ulink}
+documentation: [https://docs.aws.amazon.com/redshift/index.html](https://docs.aws.amazon.com/redshift/index.html#lang/en_us)
 
 
 

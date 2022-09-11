@@ -42,7 +42,7 @@ of a consumer survey on internet usage in Serbia, as well as data on
 internet penetration per region of the country. In the [*Data
 union*] recipe, we\'ll be
 using `Bread_basket_by_year.xlsx` (originally found on
-[Kaggle.com](https://www.kaggle.com/){.ulink}), which contains data
+[Kaggle.com](https://www.kaggle.com/)), which contains data
 about transactions in a bakery divided into two tables holding data for
 different years. In the[*Using Tableau Pivot *]recipe, we\'ll
 use `Internet_satisfaction_by_region.csv`, which holds some
@@ -50,7 +50,7 @@ results of a customer satisfaction survey found in
 the `Internet_satisfaction.csv` file, but organized in a
 slightly different format. Finally, in the[*Preparing data*]
 recipe, we\'ll use the `Winery.csv` dataset (originally found
-on [Kaggle.com](https://www.kaggle.com/){.ulink}), containing data on
+on [Kaggle.com](https://www.kaggle.com/)), containing data on
 wines, their origin, pricing, and rating.
 
 
