@@ -50,7 +50,7 @@ same values, but different names, across the two datasets.
 Creating a dashboard 
 --------------------------------------
 
-In this recipe, you will be guided through an
+In this lab, you will be guided through an
 explanation and overview of the basics of creating a dashboard. We will
 create a simple dashboard containing three worksheets, and we will build
 on it in the upcoming recipes.
@@ -143,7 +143,7 @@ A blank dashboard will appear, looking like this:
 
 
 
-In this recipe, we have created a basic dashboard. First, we have
+In this lab, we have created a basic dashboard. First, we have
 created a couple of worksheets. Then, we have placed them all in one
 dashboard.
 
@@ -179,7 +179,7 @@ cleaner and easier to read.
 
 #### Getting ready
 
-In this recipe, we will follow the [*Creating a dashboard*]
+In this lab, we will follow the [*Creating a dashboard*]
 recipe from this lab to create a basic dashboard. We will build on
 it.
 
@@ -515,7 +515,7 @@ elements that come from different data sources.
 
 #### Getting ready
 
-In this recipe, we will create a dashboard from scratch, so we can go
+In this lab, we will create a dashboard from scratch, so we can go
 through every step of connecting to the data sources. We will use both
 the `Internet_usage.csv` and
 `Internet_satisfaction.csv` datasets, so before we begin, you
@@ -781,7 +781,7 @@ on a range of different devices.
 #### Getting ready
 
 Follow the [*Creating a dashboard*] recipe to create the
-dashboard that you will be working with in this recipe.
+dashboard that you will be working with In this lab.
 
 
 #### How to do it...
@@ -946,7 +946,7 @@ Building a self-service dashboard
 ---------------------------------------------------
 
 Setting up a self-service dashboard is a great way to allow your end users to explore their data at their
-own pace. In this recipe, we will bring together the things that we\'ve
+own pace. In this lab, we will bring together the things that we\'ve
 learned throughout this lab, and some more, to create a dashboard
 with rich functionality. We will implement parameters and action filters
 to demonstrate an interactive experience, and also embed a web page and
@@ -1146,7 +1146,7 @@ worksheets in the dashboard:
 
 
 
-In this recipe, we created a parameter to allow our users to choose an input value; in this case, it is which
+In this lab, we created a parameter to allow our users to choose an input value; in this case, it is which
 dimension to use. Then, we created a calculated field that utilizes
 parameter to switch between dimensions, and we used that calculated
 field in the visualization. When the user changes the parameter value,
@@ -1159,7 +1159,7 @@ changes accordingly.
 
 
 Parameters can also be used to switch measures in your view, using the
-same principle we employed with dimensions in this recipe. It is also
+same principle we employed with dimensions In this lab. It is also
 possible to switch between visualizations, such as a bar chart and a
 scatter plot, by creating them on separate sheets and then using a
 parameter to switch between the sheets.

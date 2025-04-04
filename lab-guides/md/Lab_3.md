@@ -44,8 +44,8 @@ used in Tableau: **`Tableau Workbooks`** (**`*.twb`**),
 
 #### How to do it..
 
-In this recipe, we\'ll learn about the different file formats in
-Tableau. Tableau Extracts will be introduced in this recipe and covered
+In this lab, we\'ll learn about the different file formats in
+Tableau. Tableau Extracts will be introduced In this lab and covered
 in more detail in the [*Creating a data source extract*]
 recipe.
 
@@ -194,7 +194,7 @@ the bookmarks listed within the menu.
 Creating a data source extract 
 ------------------------------------------------
 
-In this recipe, we\'ll learn how to create a
+In this lab, we\'ll learn how to create a
 data source extract.
 
 
@@ -489,7 +489,7 @@ simultaneously.
 
 #### Getting ready
 
-In this recipe, we\'ll learn how to upgrade the `.tde`
+In this lab, we\'ll learn how to upgrade the `.tde`
 extracts to `.hyper`.
 
 
@@ -530,7 +530,7 @@ integrate this data in a single place.  
 
 #### Getting ready
 
-In this recipe, we\'ll learn how to perform a cross-database join.
+In this lab, we\'ll learn how to perform a cross-database join.
 
 
 #### How to do it..

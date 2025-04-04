@@ -2,8 +2,8 @@
 <img align="right" src="./images/logo.png">
 
 
-Lab  1. Getting Started with Tableau Software
----------------------------------------------------------
+Lab  1. Tableau Software
+------------------------
 
 
 In this lab, we will cover the following recipes:
@@ -19,19 +19,6 @@ In this lab, we will cover the following recipes:
 
 
 
-Introduction to Tableau 
------------------------------------------
-
-Tableau is one of the fastest-evolving
-[**business intelligence**] ([**BI**]) and data
-visualization tools at the moment. The user-friendly interface, combined
-with powerful capabilities, makes it one of
-the most widely used and popular BI tools around the globe. Tableau
-offers many functionalities, and getting started with the basic ones is
-surprisingly easy. This lab will get you familiar with Tableau
-basics and, by the end of it, you will have learned how to connect to a
-data source, and how to make simple visualizations.
-
 To complete the recipes in this lab, we will be using data on baby
 names in the US, which have been collected by the US Federal [**Social Security Administration**] ([**SSA**]). The
 `Baby_names.csv` dataset contains
@@ -45,7 +32,7 @@ number of babies with said name.
 Connecting to the data 
 ----------------------------------------
 
-In this recipe, we will go through the basics of
+In this lab, we will go through the basics of
 connecting to a data source. The first step
 you must take when you open Tableau, before you create any
 visualizations, is to connect to a data source. You will then use that
@@ -55,7 +42,7 @@ data source to create your views and dashboards. 
 
 #### Getting ready
 
-In this recipe, we will be using the `Baby_names.csv` dataset.
+In this lab, we will be using the `Baby_names.csv` dataset.
 Make sure that you have a local copy of the dataset saved to your
 device.
 
@@ -123,7 +110,7 @@ page, which opens when you launch **`Tableau Desktop`**, under
 Building a bar chart using Show Me 
 ----------------------------------------------------
 
-In this recipe, we will build a bar chart using **`Show Me`**. The
+In this lab, we will build a bar chart using **`Show Me`**. The
 **`Show Me`** option is a handy way to get started with building Tableau
 visualizations. To make a visualization, you don\'t need to know exactly
 how to do it, you just need to know what fields from your
@@ -234,7 +221,7 @@ under **`Measures`**/**`Dimensions`** and selecting
 Building a text table 
 ---------------------------------------
 
-In this recipe, we will build a simple table that includes two dimension, and one measure. Dimensions will
+In this lab, we will build a simple table that includes two dimension, and one measure. Dimensions will
 define the column and row headers, while the measure will be aggregated.
 
 
@@ -503,7 +490,7 @@ and easier to follow, especially as they get more complex.
 Building a tree map 
 -------------------------------------
 
-Tree maps are useful for showing relative proportions of many categories in a total. In this recipe, we will
+Tree maps are useful for showing relative proportions of many categories in a total. In this lab, we will
 investigate the composition of our dataset to see which states are
 dominant, with the most records, and which are represented with fewer
 records.
@@ -564,7 +551,7 @@ Building a map
 --------------------------------
 
 Maps are a great way to present geographical data, as they are
-intuitive and easy to read. In this recipe,
+intuitive and easy to read. In this lab,
 we will show name frequency by state, but this time using a map. This
 recipe will cover two frequently used ways to present data on a map:
 creating a map with circles of different sizes, and creating a filled
@@ -674,7 +661,7 @@ map style by performing the following steps:
 Building a dual-axis map 
 ------------------------------------------
 
-In this recipe, you will learn how to create
+In this lab, you will learn how to create
 a dual-axis map. We will build on what we learned in the [*Building a
 map*] recipe and learn how to implement a dual axis.
 
@@ -800,7 +787,7 @@ Customizing tooltips
 When you hover over a point in your view, a tooltip will appear.
 Tooltips are small boxes, holding detailed
 information about a data point in the view, and are present by default.
-In this recipe, you will learn how to customize tooltips.
+In this lab, you will learn how to customize tooltips.
 
 
 

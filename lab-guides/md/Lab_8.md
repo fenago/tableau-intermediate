@@ -1,7 +1,7 @@
 <img align="right" src="./images/logo.png">
 
 
-Lab 8. Tableau Visualization
+Lab 9. Tableau Advanced Visualization
 -----------------------------------------
 
 
@@ -49,7 +49,7 @@ than color alone.
 
 #### Getting ready
 
-In this recipe, we will create a dual axis waterfall chart, using a line chart as the base. 
+In this lab, we will create a dual axis waterfall chart, using a line chart as the base. 
 
 
 #### How to do it..
@@ -453,7 +453,7 @@ relayed as easily as we can words on a page---\"word-like graphics\".
 #### Getting ready
 
 In order to prepare for the Sparkline recipe, we will need a basic
-understanding of line charts. In this recipe, we rely heavily on the
+understanding of line charts. In this lab, we rely heavily on the
 format lines menu and editing the axis.
 
 
@@ -648,7 +648,7 @@ show many categories better, such as horizontal bars to name but one.
 
 #### Getting ready
 
-In this recipe, we extend the pie chart with a dual axis to create a
+In this lab, we extend the pie chart with a dual axis to create a
 donut chart.
 
 
@@ -816,7 +816,7 @@ In the motion chart recipe, we learn how to use **`Pages`**.
 
 #### How to do it..
 
-In this recipe, we\'re playing around with snow data for Snowbird, a ski
+In this lab, we\'re playing around with snow data for Snowbird, a ski
 resort in Utah. Open packaged workbook ski fall animation to follow
 along, `ski fall animation.twbx` and
 `Snowbird - Utah.csv`:

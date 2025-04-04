@@ -45,7 +45,7 @@ picture will appear.
 Creating a Tableau story 
 ------------------------------------------
 
-In this recipe, you will be given an explanation and overview of the technical basics of creating a Tableau
+In this lab, you will be given an explanation and overview of the technical basics of creating a Tableau
 story. In the following recipes, you will learn how to elaborate on the
 story, by picking adequate charts, putting them in the right order,
 writing insights, and formatting them in an appealing way. First, we
@@ -679,7 +679,7 @@ make our captions short and precise.
 Follow the previous recipes, [*Creating a Tableau Story*],
 [*Setting the narrative of the Story*], and [*Choosing the
 right charts*] recipes to create the sheets we will be using
-in this recipe.
+In this lab.
 
 
 #### How to do it...
@@ -850,7 +850,7 @@ some tricks that can improve the visual identity of our presentation.
 
 #### Getting ready
 
-In this recipe, we are going to format the charts we\'ve made so far.
+In this lab, we are going to format the charts we\'ve made so far.
 Follow the previous recipes from this lab: [*Creating a Tableau
 Story, Setting the narrative of the Story, Choosing the right charts,
 Writing effective headlines, Recommendation*] and [*executive
@@ -967,7 +967,7 @@ consistent! Nothing makes our presentation sloppier than randomly using
 different formatting styles. Choose one formatting principle and stick
 to it throughout the Story.
 
-In this recipe, we adjusted the format of only one of the sheets that
+In this lab, we adjusted the format of only one of the sheets that
 makes our Story. Follow the given instructions to adjust the other
 sheets. When you open the Story again, you will find that it has been
 updated with the changes you made.

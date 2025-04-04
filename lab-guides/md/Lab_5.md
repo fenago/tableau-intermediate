@@ -46,7 +46,7 @@ another field you select.
 
 #### Getting ready
 
-To follow the steps in this recipe, you will need to connect to
+To follow the steps In this lab, you will need to connect to
 the `Winery.csv` dataset, and open a new blank worksheet.
 
 
@@ -129,7 +129,7 @@ Adding filters to context
 -------------------------------------------
 
 In the previous recipe, [*Implementing a top N filter*], we
-learned how to create a top N filter. In this recipe, we will expand
+learned how to create a top N filter. In this lab, we will expand
 that knowledge to situations where we have multiple filters, a top N filter being one
 of them.
 
@@ -142,7 +142,7 @@ we want it to be.
 #### Getting ready
 
 Follow the previous recipe, [*Implementing a top N filter*],
-to create the worksheet we will be working on in this recipe.
+to create the worksheet we will be working on In this lab.
 
 
 #### How to do it...
@@ -221,7 +221,7 @@ Creating a measure filter
 -------------------------------------------
 
 So far, we have been filtering our views using dimensions as filter fields. However, Tableau also allows us
-to filter views by measures. In this recipe, we will be exploring the
+to filter views by measures. In this lab, we will be exploring the
 possibilities of this feature.
 
 
@@ -308,7 +308,7 @@ recipe will go through the steps of filtering data by date range.
 
 #### Getting ready
 
-To perform the steps in this recipe, connect to the
+To perform the steps In this lab, connect to the
 `Bread_basket.csv` dataset and open a new blank worksheet.
 
 
@@ -346,7 +346,7 @@ To perform the steps in this recipe, connect to the
 
 
 
-In this recipe, we chose to select all of the records in our dataset that fall within a certain date range. We
+In this lab, we chose to select all of the records in our dataset that fall within a certain date range. We
 specified the start date and the end date, and Tableau filtered out all
 dates that fall out of this range.
 
@@ -386,7 +386,7 @@ Creating relative dates filters
 -------------------------------------------------
 
 In the previous recipe, [*Creating date range filters*], we
-created a date range filter. In this recipe,
+created a date range filter. In this lab,
 we will explore another kind of date filter---a relative date filter.
 Relative date filters allow us to filter dates that are relative to a
 selected date.
@@ -395,7 +395,7 @@ selected date.
 
 #### Getting ready
 
-To follow the steps outlined in this recipe, connect to
+To follow the steps outlined In this lab, connect to
 the `Bread_basket.csv` dataset, and open a new blank
 worksheet.
 
@@ -430,7 +430,7 @@ worksheet.
 
 
 
-In this recipe, we explored relative date filters, by
+In this lab, we explored relative date filters, by
 creating a filter relative to a random date
 we chose, that is, **`2/1/2018`**. We chose the date, and we chose to
 see the last five days relative to the chosen date. Our view is now
@@ -447,7 +447,7 @@ to the selected date. Besides this, we can show not only a time period
 preceding the selected date, but also the one
 following it, by choosing **`Next`** instead of **`Last`**.
 
-Finally, besides setting a fixed date as we did in this recipe, we can
+Finally, besides setting a fixed date as we did In this lab, we can
 also choose **`Today`**, **`Yesterday`**, or **`Tomorrow`** as the
 anchor dates, which is very useful when we want to have a view that is
 updated with fresh data relative to the current date.
@@ -461,7 +461,7 @@ When table calculations are included in the view, filtering can be
 tricky as it changes table calculations and can give us undesired
 results.
 
-In this recipe, we will go through an example
+In this lab, we will go through an example
 of what can happen when we filter a view that includes table
 calculation, and an easy way to include a table calculation filter that
 will give us the desired result.
@@ -609,7 +609,7 @@ would like to filter by.
 
 #### Getting ready
 
-In this recipe, we will be using the `Winery.csv` dataset.
+In this lab, we will be using the `Winery.csv` dataset.
 Make sure you are connected to it, and open a new blank worksheet.
 
 
@@ -695,7 +695,7 @@ screenshot:
 
 
 
-In this recipe, we have set up a filter action. Filter actions send
+In this lab, we have set up a filter action. Filter actions send
 information between worksheets. When we click on a mark in
 **`Sheet``1`**, it sends information to **`Sheet 2`**, and
 automatically sets the selected mark in

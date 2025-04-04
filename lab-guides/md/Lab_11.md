@@ -80,7 +80,7 @@ variables.
 
 #### Getting ready
 
-To perform the steps outlined in this recipe, you will need to connect
+To perform the steps outlined In this lab, you will need to connect
 to the `hormonal_response_to_excercise.csv` dataset.
 
 #### How to do it...
@@ -182,7 +182,7 @@ inspect it.
 Forecasting on a dataset with outliers 
 ---------------------------------------------------------
 
-In this recipe, we are going to learn how to deal with outliers.
+In this lab, we are going to learn how to deal with outliers.
 Outliers are data points that are very unusual, atypical, and deviate
 from the trend present in the majority of the
 dataset. Outliers can be dangerous if not dealt with appropriately
@@ -291,7 +291,7 @@ SUM([Achtmax])> [Upper] or SUM([Achtmax]) < [Lower]
 
 
 
-In this recipe, we learned how to detect outliers. Outliers are extreme
+In this lab, we learned how to detect outliers. Outliers are extreme
 values that stand out from the other values in the sample. In order to
 detect outliers, we relied on a commonly used conventional
 rule---outliers are all values that deviate from the mean more than
@@ -410,7 +410,7 @@ Rserve()
 
 
 
-In this recipe, we installed the R software
+In this lab, we installed the R software
 on our computer. Also, we installed the `Rserve` package,
 loaded its library, and initialized it. Essentially, `Rserve`
 is a connector between R and Tableau Desktop.
@@ -463,10 +463,10 @@ Forecasting based on multiple regression
 
 In the first recipe of this lab, [*Basic forecasting and statistical
 inference*], we learned how to perform forecasting with
-simple linear regression. In this recipe, we will learn how to perform
+simple linear regression. In this lab, we will learn how to perform
 forecasting based on multiple regression. Multiple regression is a
 type of forecasting procedure in which we use more than one variable to predict the
-outcome variable that we are interested in. In this recipe, our goal is
+outcome variable that we are interested in. In this lab, our goal is
 to predict the level of cortisol at the highest effort during the
 physical exercise, based on cortisol level at rest and cortisol level at
 the beginning of the test. In the dataset that we are going to use, we
@@ -533,7 +533,7 @@ AVG([Cortmax]),AVG([Cortrest]), AVG([Cortp]))
 
 
 
-In this recipe, we learned how to utilize R facility within Tableau. If
+In this lab, we learned how to utilize R facility within Tableau. If
 you have some experience with R, you might notice that the syntax looks
 pretty standard with an exception at the beginning and at the end.
 Actually, the R syntax is wrapped, so that Tableau can be used to
@@ -601,7 +601,7 @@ among analysts and data scientists, as they provide a solution to these
 problems. The random forest algorithm is based on decision tree
 approach.  This approach can be used to predict both discrete class
 membership (classification) and exact values of a continuous variable
-(regression). In this recipe, we will cover the latter. Regression-based
+(regression). In this lab, we will cover the latter. Regression-based
 on decision tree works by iteratively splitting cases in the dataset
 into increasingly homogeneous groups. Looping through all variables the
 algorithm searches for the one that splits cases into the groups. so
@@ -724,7 +724,7 @@ The preceding code is shown in the following screenshot:
 
 
 
-In this recipe, we used the random forest algorithm to predict the level
+In this lab, we used the random forest algorithm to predict the level
 of ACHT during exercise. The subjects with high values of ACHT (389.86)
 are represented with dark blue circles at the
 top of the chart, while the rest of the respondents (with the average
@@ -735,7 +735,7 @@ value of 325.14) are at the bottom of the chart (light blue cycles).
 
 
 
-In this recipe, we have created a model, and we can now save it and
+In this lab, we have created a model, and we can now save it and
 apply it to another dataset (for detailed explanation and instructions,
 see the recipe
 
@@ -762,14 +762,14 @@ extrapolating values for points in time that are outside our dataset,
 based on the time points in our dataset for which we have the recorded
 values.
 
-In this recipe, we will be using stock market prices of a soft drink
+In this lab, we will be using stock market prices of a soft drink
 company shares, stored in the `Stock_prices.csv` dataset.
 
 
 
 #### Getting ready
 
-To perform the steps in this recipe, make sure you are connected to
+To perform the steps In this lab, make sure you are connected to
 the `Stock_prices.csv` dataset and open a new blank worksheet.
 
 

@@ -22,18 +22,16 @@ Perform advanced dashboard, visualization, and analytical techniques with Tablea
 
 Labs for this course are listed below:
 
-1. Getting Started with Tableau Software
+1. Tableau Software
 2. Data Manipulation
 3. Tableau Extracts
 4. Tableau Desktop Advanced Calculations
 5. Tableau Desktop Advanced Filtering
 6. Building Dashboards
 7. Telling a Story with Tableau
-8. Tableau Visualization
-9. Tableau Advanced Visualization
-10. Tableau for Big Data
-11. Forecasting with Tableau
-12. Advanced Analytics with Tableau
+8. Tableau Advanced Visualization
+9. Forecasting with Tableau
+
 
 ### About
 Tableau has been one of the most popular business intelligence solutions in recent times, thanks to its powerful and interactive data visualization capabilities

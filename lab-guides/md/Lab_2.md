@@ -69,7 +69,7 @@ and fields.
 
 #### Getting ready
 
-In this recipe, we\'ll be using two
+In this lab, we\'ll be using two
 datasets, `Public_Schools_1.csv` and `Public_Schools_2.csv`.
 Make sure you have both datasets saved to your device.
 
@@ -188,7 +188,7 @@ simply adding data sources to our workbook. Let\'s see how.
 
 #### Getting ready
 
-In this recipe, we\'ll be using two datasets,
+In this lab, we\'ll be using two datasets,
 `Internet_satisfaction.csv` and
 `Internet_usage.csv`, as data sources. Make sure you have them
 both saved to your device.
@@ -425,7 +425,7 @@ appending the rows of one table to another.
 
 #### Getting ready
 
-In this recipe, we\'ll be using
+In this lab, we\'ll be using
 the `Bread_basket_by_year.xlsx` file, so make sure you have
 saved it to you device.
 
@@ -502,7 +502,7 @@ more suited to our needs.
 
 #### Getting ready
 
-To perform the steps in this recipe, we\'ll be using the
+To perform the steps In this lab, we\'ll be using the
 `Internet_satisfaction_by_region.csv` file as the data source.
 Make sure you have it saved to your device and connect to it.
 
@@ -617,7 +617,7 @@ often need to take when preparing your data for visualizing.
 
 
 
-In this recipe, we\'ll learn how to split a field into multiple fields:
+In this lab, we\'ll learn how to split a field into multiple fields:
 
 
 1.  In the **`Data Source`** page, right-click on the header of the
@@ -732,7 +732,7 @@ Let\'s correct that by adding an alias.
 
 
 
-In this recipe, we\'ve performed some basic data preparation.
+In this lab, we\'ve performed some basic data preparation.
 
 In the first step, we split the field **`Taster Name`** into two
 fields---one containing the first and one the last name of the wine

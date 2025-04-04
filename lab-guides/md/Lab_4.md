@@ -24,7 +24,7 @@ Creating calculated fields
 
 Calculated fields are custom fields you can
 add to your data source. Their values are determined by the custom
-formula you yourself write. In this recipe, we will create a
+formula you yourself write. In this lab, we will create a
 simple calculated field that contains the
 difference in value of **`C``ivilian`` Labor Force`** between each data
 point and the data point preceding it.
@@ -243,7 +243,7 @@ Creating and using groups
 
 Groups are a handy way to combine multiple
 members of a field into a new member. In the
-example we will be working on in this recipe, we will group individual
+example we will be working on In this lab, we will group individual
 years into decades, so that we are able to see the data on the level of
 decade.
 
@@ -415,7 +415,7 @@ open a blank worksheet.
 
 
 
-In this recipe, we have created a set based on a condition: the value of
+In this lab, we have created a set based on a condition: the value of
 **`Employment`**. We have set the condition so that all the data points
 that have the value of **`Employment`** equal to or higher than
 **`297027`** (which is the average value of **`Employment`** across the
@@ -619,7 +619,7 @@ creating our views.
 
 #### Getting ready
 
-To follow the steps in this recipe, connect to the
+To follow the steps In this lab, connect to the
 `Unemployment_rates_1990-2016.csv` dataset, and open a new
 blank worksheet.
 
@@ -658,7 +658,7 @@ blank worksheet.
 
 
 
-In this recipe, we created a visualization where difference from the
+In this lab, we created a visualization where difference from the
 overall average of employment is calculated, but in such a way that the
 overall average is used as a reference point regardless of what is
 included in the visualization. So, when we include **`Year`**, our
@@ -678,7 +678,7 @@ average fixed, regardless of what is in our visualization.
 
 
 
-In this recipe, we used a `FIXED LOD` expression. With the
+In this lab, we used a `FIXED LOD` expression. With the
 `FIXED LOD` expression, we specify
 the exact LOD we want to have in our visualization, and it is completely
 unaffected by the LOD we include in our view. Because of this, we kept
@@ -732,7 +732,7 @@ creating our views.
 
 #### Getting ready
 
-To follow the steps in this recipe, connect to the
+To follow the steps In this lab, connect to the
 `Unemployment_rates_1990-2016.csv` dataset, and open a new
 blank worksheet.
 
@@ -771,7 +771,7 @@ blank worksheet.
 
 
 
-In this recipe, we created a visualization where difference from the
+In this lab, we created a visualization where difference from the
 overall average of employment is calculated, but in such a way that the
 overall average is used as a reference point regardless of what is
 included in the visualization. So, when we include **`Year`**, our
@@ -791,7 +791,7 @@ average fixed, regardless of what is in our visualization.
 
 
 
-In this recipe, we used a `FIXED LOD` expression. With the
+In this lab, we used a `FIXED LOD` expression. With the
 `FIXED LOD` expression, we specify
 the exact LOD we want to have in our visualization, and it is completely
 unaffected by the LOD we include in our view. Because of this, we kept
@@ -840,7 +840,7 @@ ourselves using custom geocoding.
 
 #### Getting ready
 
-In this recipe, we will use two datasets: one we want to create our
+In this lab, we will use two datasets: one we want to create our
 views from, and one that contains custom geocoding data. Make sure you
 have both the `Serbian_provinces_population_size.csv` and
 `Province_geocoding.csv` datasets saved to your device. Also,
@@ -944,7 +944,7 @@ Using polygons for analytics
 
 In the previous recipe, [*Using custom geocoding*], we have
 imported and used custom geocoding to map
-Serbian provincial centers. In this recipe, we will go a step further
+Serbian provincial centers. In this lab, we will go a step further
 and map the region\'s borders in order to create a filled map. We will
 achieve this by using polygon mapping.
 
@@ -952,7 +952,7 @@ achieve this by using polygon mapping.
 
 #### Getting ready
 
-In this recipe, we will use two datasets:
+In this lab, we will use two datasets:
 `Serbia_Provinces_Features.csv` and
 `Serbia_Provinces_Points.csv`.
 The `Serbia_Provinces_Features.csv` dataset contains data on
