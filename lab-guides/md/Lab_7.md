@@ -96,11 +96,9 @@ open Tableau, and connect it to your local copy of the data.
 
 ![](./images/9e7e3493-6edf-4659-880a-ae88fc745c8f.png)
 6.  Change the label of the sheet from
-    **`Sheet 1`** to `Recycling`:[** **]
-[]
+    **`Sheet 1`** to `Recycling`:
 
-
-**![](./images/e2282eb4-1061-4bf4-899b-a2ee7a8f5ed7.png)**
+![](./images/e2282eb4-1061-4bf4-899b-a2ee7a8f5ed7.png)
 
 7.  Open a blank worksheet and drag and drop
     **`Aware of recycling possibility`** from **`Dimensions`** into the
@@ -225,7 +223,7 @@ Story, we can find the following elements:
     where we need to choose the direction of the following steps in the
     analysis. The conflict phase is resolved when we decide on the
     specific route to take while investigating our data.
--   [**Development**]:[** **]The development phase is
+-   [**Development**]: The development phase is
     usually devoted to a description of different approaches to the
     problem and our process of searching for the solution. The main
     purpose of this phase is to inform our audience about what we have
@@ -233,7 +231,7 @@ Story, we can find the following elements:
 -   [**Climax**]: The climax is the moment when all the pieces
     of the puzzle come together. At that point, the key insight of our
     analysis should have been clarified.
--   [**Resolution**]:[** **]In the resolution phase,
+-   [**Resolution**]: In the resolution phase,
     we are presenting the final result. In this phase, we are suggesting
     a solution to the problem, along with the arguments that support it.
 
@@ -411,10 +409,9 @@ their awareness. That is our first clue. Let\'s investigate some more.
     and select **`Table (down)`**.
 23. Click on the **`Sheet 6`** tab at the bottom of the page and enter
     `Awareness by Reading labels`:
-[** **]
 
 
-**![](./images/4618d802-a4d2-478d-998f-184a8d5dd7af.png)**
+![](./images/4618d802-a4d2-478d-998f-184a8d5dd7af.png)
 
 
 

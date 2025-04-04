@@ -464,7 +464,7 @@ Creating and using parameters
 -----------------------------------------------
 
 In the previous recipe, [*Creating and using
-sets*],[** **]we created a set to divide years into
+sets*], we created a set to divide years into
 the ones with above average and the ones with below average employment.
 We did this by hardcoding the average
 value in the definition of our set. But, what
