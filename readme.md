@@ -29,9 +29,8 @@ Labs for this course are listed below:
 5. Tableau Desktop Advanced Filtering
 6. Building Dashboards
 7. Telling a Story with Tableau
-8. Tableau Advanced Visualization
-9. Forecasting with Tableau
-
+8. Forecasting with Tableau
+9. Tableau Advanced Visualization
 
 ### About
 Tableau has been one of the most popular business intelligence solutions in recent times, thanks to its powerful and interactive data visualization capabilities
