@@ -14,8 +14,6 @@ In this lab, we will cover the followingtopics:
 -   Configuring an incremental extract
 -   Upgrading to Hyper
 -   Creating extracts using cross-database joins
--   Troubleshooting extracts with Tableau Server
-
 
 
 Introduction 
@@ -580,69 +578,3 @@ to identify columns from each data source by the color assigned to each
 column and table. We saw blue for the Excel sheet and orange for the
 text file.
 
-
-Troubleshooting extracts with Tableau Server 
---------------------------------------------------------------
-
-After a `.tde` extract has been upgraded, it can\'t be
-opened using an earlier version of Tableau Desktop. If you can\'t upgrade, you\'ll
-need to keep your extract in the `.tde` format.
-
-
-
-#### Getting ready
-
-You\'ll need an older version of Tableau Desktop installed on your
-machine and/or the original data source connection.
-
-
-#### How to do it..
-
-If you\'ve upgraded by mistake or wish to retain a previous version,
-consider the following two options:
--   Recreate an extract using an earlier version of Tableau Desktop by
-    connecting to the original data source using an earlier version of
-    Tableau Desktop
--   Roll back an extract to a previous version, if revision history is
-    turned on for Server or Tableau Online, by downloading the earlier
-    version
-### How it works\...
-
-
-
-When we\'ve mistakenly upgraded to a later version, we must roll back to
-a previous version. You do this rollback by either recreating the work
-in an older version of Tableau or by getting an older version from the
-server.
-
-
-### There\'s more\...
-
-
-
-If you need to keep an extract in the `.tde` format, don\'t
-upgrade the extract; keep an earlier version of Tableau Desktop for
-extracts, refreshes, or appending data. Also disable extract refreshes
-on the server for any that should remain in the legacy format. See the
-[*Hyper*] section to understand which actions can cause an
-extract to upgrade.
-
-
-#### See also
-
-
-
-Consider upgrading to 2018.x or later so the benefits of Hyper extracts
-can be utilized across all platforms.
-
-When upgrading, we should understand the
-following backward-compatibility limitations:
--   The `.hyper` files can\'t be downgraded to the
-    `.tde` extracts
--   Older versions of Tableau Desktop can\'t be published to an upgraded
-    server environment
--   Upgraded extracts can\'t be opened in an earlier version of Tableau,
-    which could limit how they\'re shared with others who are using
-    older versions
--   **`Export as a Version`** can\'t be used to downgrade a workbook
-    with the `.hyper` extracts
